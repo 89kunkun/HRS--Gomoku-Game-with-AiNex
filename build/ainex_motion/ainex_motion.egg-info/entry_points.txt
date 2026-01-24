@@ -1,0 +1,5 @@
+[console_scripts]
+aruco_follower_node = ainex_motion.aruco_follower_node:main
+joint_controller = ainex_motion.joint_controller:main
+joint_visualization_node = ainex_motion.joint_visualization_node:main
+walking_keyboard_node = ainex_motion.walking_keyboard_node:main

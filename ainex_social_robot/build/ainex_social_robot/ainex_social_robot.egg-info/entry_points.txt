@@ -1,0 +1,4 @@
+[console_scripts]
+combine_node = ainex_social_robot.combine_node:main
+shake_head_node = ainex_social_robot.shake_head_node:main
+wave_hand_node = ainex_social_robot.wave_hand_node:main

@@ -1,0 +1,18 @@
+{
+  "package_name": "servo_service",
+  "non_idl_tuples": [
+    "/home/hrs2025/Workspace/src/servo_service:msg/ChangeServoPositions.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/SetServoPositions.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/SetJointLock.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/GetServoPositions.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/SetPosture.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/FaceBoundingBox.msg",
+    "/home/hrs2025/Workspace/src/servo_service:msg/FaceBoundingBoxArray.msg",
+    "/home/hrs2025/Workspace/src/servo_service:srv/JointLock.srv",
+    "/home/hrs2025/Workspace/src/servo_service:srv/ServoTemp.srv",
+    "/home/hrs2025/Workspace/src/servo_service:srv/ServoDeviation.srv",
+    "/home/hrs2025/Workspace/src/servo_service:srv/ServoVoltage.srv",
+    "/home/hrs2025/Workspace/src/servo_service:srv/JointPosition.srv",
+    "/home/hrs2025/Workspace/src/servo_service:srv/JointRange.srv"
+  ]
+}

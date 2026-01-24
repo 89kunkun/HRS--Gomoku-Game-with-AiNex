@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hrs2025/Workspace/src/build/ainex_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/launch/display.launch.py
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.urdf
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.urdf.xacro
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.xacro
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/gazebo.xacro
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/materials.xacro
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/transmissions.xacro
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/body_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/head_pan_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/head_tilt_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_ank_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_ank_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_el_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_el_yaw_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_gripper_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_yaw_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_knee_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_sho_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_sho_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_ank_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_ank_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_el_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_el_yaw_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_gripper_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_yaw_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_knee_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_sho_pitch_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_sho_roll_link.STL
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/rviz/ainex.rviz
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/package_run_dependencies/ainex_description
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/parent_prefix_path/ainex_description
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/path.sh
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/path.dsv
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.bash
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.sh
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.zsh
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.dsv
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.dsv
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/packages/ainex_description
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig.cmake
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig-version.cmake
+-- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.xml

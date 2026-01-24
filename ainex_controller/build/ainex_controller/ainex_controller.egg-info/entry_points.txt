@@ -1,0 +1,6 @@
+[console_scripts]
+ainex_arm = ainex_controller.ainex_arm:main
+ainex_arm_controller = ainex_controller.ainex_arm_controller:main
+ainex_hands_control_node = ainex_controller.ainex_hands_control_node:main
+ainex_minimal_fsm = ainex_controller.ainex_minimal_fsm:main
+ainex_twohands_control_node = ainex_controller.ainex_twohands_control_node:main

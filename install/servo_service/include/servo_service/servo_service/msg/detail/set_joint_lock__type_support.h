@@ -1,0 +1,1 @@
+/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__type_support.h

@@ -1,0 +1,421 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dfe31e91f10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dfe31e91b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dfe31e91b50>>, mixin_verb=('build',))
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hrs2025/Workspace/src'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_controller' with type 'ros.ament_python' and name 'ainex_controller'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_description' with type 'ros.ament_cmake' and name 'ainex_description'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_motion' with type 'ros.ament_python' and name 'ainex_motion'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_social_robot' with type 'ros.ament_python' and name 'ainex_social_robot'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_vision' with type 'ros.ament_python' and name 'ainex_vision'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'servo_service' with type 'ros.ament_cmake' and name 'servo_service'
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/hrs2025/Workspace/src/install
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 303 installed packages in /opt/ros/jazzy
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/ainex_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/ainex_description', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/ainex_description', 'symlink_install': True, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/ainex_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/ainex_vision', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/ainex_vision', 'symlink_install': True, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'servo_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/servo_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/servo_service', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/servo_service', 'symlink_install': True, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/ainex_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/ainex_motion', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/ainex_motion', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_social_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/ainex_social_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/ainex_social_robot', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/ainex_social_robot', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/Workspace/src/build/ainex_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/Workspace/src/install/ainex_controller', 'merge_install': False, 'path': '/home/hrs2025/Workspace/src/ainex_controller', 'symlink_install': True, 'test_result_base': None}
+[0.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs2025/Workspace/src/servo_service' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs2025/Workspace/src/servo_service'
+[0.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/Workspace/src/ainex_vision' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.dsv'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.sh'
+[0.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs2025/Workspace/src/ainex_description' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs2025/Workspace/src/ainex_description'
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/servo_service -- -j8 -l8
+[0.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/Workspace/src/ainex_vision'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/ainex_description -- -j8 -l8
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/ainex_description -- -j8 -l8
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/ainex_description
+[0.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_description)
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/ainex_description
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description' for CMake module files
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description' for CMake config files
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_description', 'cmake_prefix_path')
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.sh'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/bin'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/lib/pkgconfig/ainex_description.pc'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/lib/python3.12/site-packages'
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/bin'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.ps1'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.dsv'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.sh'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.bash'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.zsh'
+[0.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_description/share/colcon-core/packages/ainex_description)
+[0.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_description)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description' for CMake module files
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description' for CMake config files
+[0.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_description', 'cmake_prefix_path')
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.ps1'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.sh'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/bin'
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/lib/pkgconfig/ainex_description.pc'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/lib/python3.12/site-packages'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_description/bin'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.bash'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_description/share/colcon-core/packages/ainex_description)
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/servo_service -- -j8 -l8
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/servo_service
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service' for CMake module files
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/servo_service
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service' for CMake config files
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib'
+[0.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/bin'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages'
+[0.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/bin'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.sh'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.zsh'
+[0.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/servo_service/share/colcon-core/packages/servo_service)
+[0.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service' for CMake module files
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service' for CMake config files
+[0.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages'
+[0.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/servo_service/bin'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.sh'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/servo_service/share/servo_service/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/servo_service/share/colcon-core/packages/servo_service)
+[0.995s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/Workspace/src/ainex_motion' with build type 'ament_python'
+[0.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'ament_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.sh'
+[0.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.240s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/Workspace/src/ainex_motion'
+[1.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_vision/build --no-deps symlink_data
+[1.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_motion/build --no-deps symlink_data
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'pythonpath_develop')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.ps1'
+[2.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_vision/build --no-deps symlink_data
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.dsv'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.sh'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision' for CMake module files
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision' for CMake config files
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision/lib'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision/bin'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision/lib/pkgconfig/ainex_vision.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages'
+[2.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'pythonpath')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_vision/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_vision)
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/package.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/package.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_vision/share/ainex_vision/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_vision/share/colcon-core/packages/ainex_vision)
+[2.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'pythonpath_develop')
+[2.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.ps1'
+[2.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_motion/build --no-deps symlink_data
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.dsv'
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.sh'
+[2.651s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion' for CMake module files
+[2.652s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion' for CMake config files
+[2.652s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion/lib'
+[2.652s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion/bin'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion/lib/pkgconfig/ainex_motion.pc'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages'
+[2.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'pythonpath')
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.ps1'
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.dsv'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.sh'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_motion/bin'
+[2.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_motion)
+[2.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/package.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/package.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/package.sh'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/package.bash'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_motion/share/ainex_motion/package.zsh'
+[2.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_motion/share/colcon-core/packages/ainex_motion)
+[2.657s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/Workspace/src/ainex_social_robot' with build type 'ament_python'
+[2.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'ament_prefix_path')
+[2.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.ps1'
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.dsv'
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.sh'
+[2.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.899s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/Workspace/src/ainex_social_robot'
+[2.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_social_robot': AMENT_PREFIX_PATH=/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/servo_service:/home/hrs2025/Workspace/src/install/ainex_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_social_robot/build --no-deps symlink_data
+[4.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'pythonpath_develop')
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.ps1'
+[4.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_social_robot' returned '0': AMENT_PREFIX_PATH=/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/servo_service:/home/hrs2025/Workspace/src/install/ainex_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_social_robot/build --no-deps symlink_data
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.dsv'
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.sh'
+[4.258s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot' for CMake module files
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot' for CMake config files
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot/lib'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot/bin'
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/pkgconfig/ainex_social_robot.pc'
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages'
+[4.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'pythonpath')
+[4.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.ps1'
+[4.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.dsv'
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.sh'
+[4.261s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_social_robot/bin'
+[4.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_social_robot)
+[4.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/package.ps1'
+[4.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/package.dsv'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/package.sh'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/package.bash'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_social_robot/share/ainex_social_robot/package.zsh'
+[4.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_social_robot/share/colcon-core/packages/ainex_social_robot)
+[4.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/Workspace/src/ainex_controller' with build type 'ament_python'
+[4.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'ament_prefix_path')
+[4.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.ps1'
+[4.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.dsv'
+[4.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.sh'
+[4.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.502s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/Workspace/src/ainex_controller'
+[4.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/Workspace/src/build/ainex_controller': AMENT_PREFIX_PATH=/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/servo_service:/home/hrs2025/Workspace/src/install/ainex_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_controller/build --no-deps symlink_data
+[5.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'pythonpath_develop')
+[5.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.ps1'
+[5.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/Workspace/src/build/ainex_controller' returned '0': AMENT_PREFIX_PATH=/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/servo_service:/home/hrs2025/Workspace/src/install/ainex_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_vision:/home/hrs2025/Workspace/src/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/build/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/build/ainex_controller/build --no-deps symlink_data
+[5.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.dsv'
+[5.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.sh'
+[5.867s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller' for CMake module files
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller' for CMake config files
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller/lib'
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller/bin'
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller/lib/pkgconfig/ainex_controller.pc'
+[5.869s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller/lib/python3.12/site-packages'
+[5.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'pythonpath')
+[5.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/pythonpath.ps1'
+[5.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/pythonpath.dsv'
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/hook/pythonpath.sh'
+[5.871s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/Workspace/src/install/ainex_controller/bin'
+[5.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_controller)
+[5.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/package.ps1'
+[5.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/package.dsv'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/package.sh'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/package.bash'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/Workspace/src/install/ainex_controller/share/ainex_controller/package.zsh'
+[5.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/Workspace/src/install/ainex_controller/share/colcon-core/packages/ainex_controller)
+[5.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.876s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.882s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/Workspace/src/install/local_setup.ps1'
+[5.896s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs2025/Workspace/src/install/_local_setup_util_ps1.py'
+[5.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/Workspace/src/install/setup.ps1'
+[5.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/Workspace/src/install/local_setup.sh'
+[5.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs2025/Workspace/src/install/_local_setup_util_sh.py'
+[5.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/Workspace/src/install/setup.sh'
+[5.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/Workspace/src/install/local_setup.bash'
+[5.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/Workspace/src/install/setup.bash'
+[5.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/Workspace/src/install/local_setup.zsh'
+[5.905s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/Workspace/src/install/setup.zsh'
