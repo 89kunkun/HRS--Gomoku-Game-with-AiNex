@@ -9,7 +9,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String, Empty, Int16MultiArray
 
-# 重要：这里用“包内导入”
+# Important: keep this as an intra-package import
 from gomoku_visualization.ui.renderer import GomokuRenderer, VizState, MoveItem
 
 
@@ -116,7 +116,7 @@ class GomokuVisualizerNode(Node):
                 MoveItem(move_idx=len(self._move_history) + 1, player=pstr, row=r, col=c)
             )
 
-            # clear warning on valid move (可选)
+            # clear warning on valid move (optional)
             self._warning = ""
 
     # ---------- render loop ----------
