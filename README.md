@@ -1,1 +1,0 @@
-# HRS--Gomoku-Game-with-AiNex

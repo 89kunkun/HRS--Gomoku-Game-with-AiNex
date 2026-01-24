@@ -1,0 +1,21 @@
+[1.121s] Invoking command in '/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller/build --no-deps symlink_data
+[1.477s] running develop
+[1.717s] running egg_info
+[1.741s] writing ainex_controller.egg-info/PKG-INFO
+[1.741s] writing dependency_links to ainex_controller.egg-info/dependency_links.txt
+[1.742s] writing entry points to ainex_controller.egg-info/entry_points.txt
+[1.742s] writing requirements to ainex_controller.egg-info/requires.txt
+[1.742s] writing top-level names to ainex_controller.egg-info/top_level.txt
+[1.787s] reading manifest file 'ainex_controller.egg-info/SOURCES.txt'
+[1.788s] writing manifest file 'ainex_controller.egg-info/SOURCES.txt'
+[1.812s] running build_ext
+[1.812s] Creating /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages/ainex-controller.egg-link (link to .)
+[1.813s] Installing ainex_arm script to /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/ainex_controller
+[1.813s] Installing ainex_arm_controller script to /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/ainex_controller
+[1.813s] Installing ainex_hands_control_node script to /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/ainex_controller
+[1.813s] Installing ainex_minimal_fsm script to /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/ainex_controller
+[1.814s] Installing ainex_twohands_control_node script to /home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/ainex_controller
+[1.814s] 
+[1.814s] Installed /home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller
+[1.814s] running symlink_data
+[1.842s] Invoked command in '/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller/build --no-deps symlink_data

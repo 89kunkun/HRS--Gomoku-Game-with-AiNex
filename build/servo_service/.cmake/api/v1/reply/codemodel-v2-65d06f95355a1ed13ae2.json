@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ea16d14a4da8753832b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "servo_service__py",
+					"jsonFile" : "directory-servo_service__py-0809d68c6c0a82cecdcc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrs2025/Workspace/src/build/servo_service/servo_service__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "servo_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_servo_service_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_servo_service_egg-f184a95a2364ef975d55.json",
+					"name" : "ament_cmake_python_build_servo_service_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_servo_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_servo_service-f1908ba7daa9660e833b.json",
+					"name" : "ament_cmake_python_symlink_servo_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service-0615e8b7037a94d34563.json",
+					"name" : "servo_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__cpp-072724287e616323e51b.json",
+					"name" : "servo_service__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "servo_service__py::@d8c6dacf31978cc7c9e2",
+					"jsonFile" : "target-servo_service__py-fc738d4e59b84b7c9803.json",
+					"name" : "servo_service__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_c-57a6f3a4c70f63071678.json",
+					"name" : "servo_service__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_py-69596d053a763266ddf7.json",
+					"name" : "servo_service__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_type_description-c056aac86261aafb5f6f.json",
+					"name" : "servo_service__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_c-fb57ad03cabda4fe1387.json",
+					"name" : "servo_service__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_cpp-31b2e7e068aa5907d648.json",
+					"name" : "servo_service__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_fastrtps_c-294c14716ee9a41d3d8b.json",
+					"name" : "servo_service__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_fastrtps_cpp-0abd9d9eeaf56f477615.json",
+					"name" : "servo_service__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_introspection_c-decb339261253db5fb19.json",
+					"name" : "servo_service__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_introspection_cpp-d35a49fa5551c2007af0.json",
+					"name" : "servo_service__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_c-12d2f068231853e35030.json",
+					"name" : "servo_service_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_fastrtps_c-de3436418140fb00d377.json",
+					"name" : "servo_service_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_introspection_c-335f80bb521523f50858.json",
+					"name" : "servo_service_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_uninstall-4eb7adafff56938c9d8c.json",
+					"name" : "servo_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7b5aaecf5cd7b79f029.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrs2025/Workspace/src/build/servo_service",
+		"source" : "/home/hrs2025/Workspace/src/servo_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
