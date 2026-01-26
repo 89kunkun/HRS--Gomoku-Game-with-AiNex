@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating ainex_social_robot.egg-info
+writing ainex_social_robot.egg-info/PKG-INFO
+writing dependency_links to ainex_social_robot.egg-info/dependency_links.txt
+writing entry points to ainex_social_robot.egg-info/entry_points.txt
+writing requirements to ainex_social_robot.egg-info/requires.txt
+writing top-level names to ainex_social_robot.egg-info/top_level.txt
+writing manifest file 'ainex_social_robot.egg-info/SOURCES.txt'
+reading manifest file 'ainex_social_robot.egg-info/SOURCES.txt'
+writing manifest file 'ainex_social_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hrs2025/20260121/install/ainex_social_robot/lib/python3.12/site-packages/ainex-social-robot.egg-link (link to .)
+Installing combine_node script to /home/hrs2025/20260121/install/ainex_social_robot/lib/ainex_social_robot
+Installing shake_head_node script to /home/hrs2025/20260121/install/ainex_social_robot/lib/ainex_social_robot
+Installing wave_hand_node script to /home/hrs2025/20260121/install/ainex_social_robot/lib/ainex_social_robot
+
+Installed /home/hrs2025/20260121/build/ainex_social_robot
+running symlink_data
+creating /home/hrs2025/20260121/install/ainex_social_robot/share/ament_index
+creating /home/hrs2025/20260121/install/ainex_social_robot/share/ament_index/resource_index
+creating /home/hrs2025/20260121/install/ainex_social_robot/share/ament_index/resource_index/packages
+symbolically linking /home/hrs2025/20260121/build/ainex_social_robot/resource/ainex_social_robot -> /home/hrs2025/20260121/install/ainex_social_robot/share/ament_index/resource_index/packages
+symbolically linking /home/hrs2025/20260121/build/ainex_social_robot/package.xml -> /home/hrs2025/20260121/install/ainex_social_robot/share/ainex_social_robot
+creating /home/hrs2025/20260121/install/ainex_social_robot/share/ainex_social_robot/launch
+symbolically linking /home/hrs2025/20260121/build/ainex_social_robot/launch/social_pipeline.launch.py -> /home/hrs2025/20260121/install/ainex_social_robot/share/ainex_social_robot/launch

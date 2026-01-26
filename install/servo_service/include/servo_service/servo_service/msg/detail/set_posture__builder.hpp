@@ -1,0 +1,1 @@
+/home/hrs2025/20260121/build/servo_service/rosidl_generator_cpp/servo_service/msg/detail/set_posture__builder.hpp

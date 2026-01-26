@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ainex-controller
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: wenlan
+Maintainer-email: wenlan.shen@tum.de
+License: Apache-2.0
+Provides-Extra: test

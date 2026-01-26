@@ -1,0 +1,21 @@
+[1.243s] Invoking command in '/home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot/build --no-deps symlink_data
+[1.637s] running develop
+[1.881s] running egg_info
+[1.903s] writing ainex_social_robot.egg-info/PKG-INFO
+[1.903s] writing dependency_links to ainex_social_robot.egg-info/dependency_links.txt
+[1.903s] writing entry points to ainex_social_robot.egg-info/entry_points.txt
+[1.903s] writing requirements to ainex_social_robot.egg-info/requires.txt
+[1.903s] writing top-level names to ainex_social_robot.egg-info/top_level.txt
+[1.949s] reading manifest file 'ainex_social_robot.egg-info/SOURCES.txt'
+[1.950s] writing manifest file 'ainex_social_robot.egg-info/SOURCES.txt'
+[1.973s] running build_ext
+[1.974s] Creating /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/python3.12/site-packages/ainex-social-robot.egg-link (link to .)
+[1.974s] Installing combine_node script to /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/ainex_social_robot
+[1.974s] Installing shake_head_node script to /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/ainex_social_robot
+[1.975s] Installing wave_hand_node script to /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/ainex_social_robot
+[1.975s] 
+[1.975s] Installed /home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot
+[1.975s] running symlink_data
+[1.975s] creating /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/share/ainex_social_robot/launch
+[1.975s] symbolically linking /home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot/launch/social_pipeline.launch.py -> /home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/share/ainex_social_robot/launch
+[2.003s] Invoked command in '/home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_social_robot/install/ainex_social_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_social_robot/build/ainex_social_robot/build --no-deps symlink_data

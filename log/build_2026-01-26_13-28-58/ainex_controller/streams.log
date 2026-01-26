@@ -1,0 +1,27 @@
+[0.890s] Invoking command in '/home/hrs2025/20260121/build/ainex_controller': AMENT_PREFIX_PATH=/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/servo_service:/home/hrs2025/20260121/install/ainex_vision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrs2025/20260121/install/servo_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs2025/20260121/install/servo_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrs2025/20260121/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/20260121/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_social_robot:/home/hrs2025/20260121/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_motion:/home/hrs2025/20260121/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_vision:/home/hrs2025/20260121/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/20260121/build/ainex_controller/build --no-deps symlink_data
+[1.251s] running develop
+[1.488s] running egg_info
+[1.488s] creating ainex_controller.egg-info
+[1.512s] writing ainex_controller.egg-info/PKG-INFO
+[1.512s] writing dependency_links to ainex_controller.egg-info/dependency_links.txt
+[1.512s] writing entry points to ainex_controller.egg-info/entry_points.txt
+[1.512s] writing requirements to ainex_controller.egg-info/requires.txt
+[1.512s] writing top-level names to ainex_controller.egg-info/top_level.txt
+[1.513s] writing manifest file 'ainex_controller.egg-info/SOURCES.txt'
+[1.558s] reading manifest file 'ainex_controller.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'ainex_controller.egg-info/SOURCES.txt'
+[1.582s] running build_ext
+[1.582s] Creating /home/hrs2025/20260121/install/ainex_controller/lib/python3.12/site-packages/ainex-controller.egg-link (link to .)
+[1.583s] Installing ainex_arm_controller script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+[1.583s] Installing ainex_hands_control_node script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+[1.583s] Installing ainex_minimal_fsm script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+[1.583s] Installing ainex_twohands_control_node script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+[1.583s] 
+[1.584s] Installed /home/hrs2025/20260121/build/ainex_controller
+[1.584s] running symlink_data
+[1.584s] creating /home/hrs2025/20260121/install/ainex_controller/share/ament_index
+[1.584s] creating /home/hrs2025/20260121/install/ainex_controller/share/ament_index/resource_index
+[1.584s] creating /home/hrs2025/20260121/install/ainex_controller/share/ament_index/resource_index/packages
+[1.584s] symbolically linking /home/hrs2025/20260121/build/ainex_controller/resource/ainex_controller -> /home/hrs2025/20260121/install/ainex_controller/share/ament_index/resource_index/packages
+[1.584s] symbolically linking /home/hrs2025/20260121/build/ainex_controller/package.xml -> /home/hrs2025/20260121/install/ainex_controller/share/ainex_controller
+[1.613s] Invoked command in '/home/hrs2025/20260121/build/ainex_controller' returned '0': AMENT_PREFIX_PATH=/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/servo_service:/home/hrs2025/20260121/install/ainex_vision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hrs2025/20260121/install/servo_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs2025/20260121/install/servo_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hrs2025/20260121/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/20260121/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_social_robot:/home/hrs2025/20260121/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_motion:/home/hrs2025/20260121/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/20260121/build/ainex_vision:/home/hrs2025/20260121/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/20260121/build/ainex_controller/build --no-deps symlink_data

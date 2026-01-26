@@ -1,0 +1,1 @@
+/home/hrs2025/20260121/src/ainex_vision/setup.py

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hrs2025/20260121/build/servo_service/rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_c.so" "TARGETS" "servo_service_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/servo_service")

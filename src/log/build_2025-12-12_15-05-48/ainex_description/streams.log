@@ -1,0 +1,75 @@
+[0.257s] Invoking command in '/home/hrs2025/Workspace/src/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/Workspace/src/ainex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/Workspace/src/install/ainex_description
+[0.318s] -- The C compiler identification is GNU 13.3.0
+[0.385s] -- The CXX compiler identification is GNU 13.3.0
+[0.406s] -- Detecting C compiler ABI info
+[0.508s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.530s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.661s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.829s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.986s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.132s] -- Configuring done (0.9s)
+[1.136s] -- Generating done (0.0s)
+[1.137s] -- Build files have been written to: /home/hrs2025/Workspace/src/build/ainex_description
+[1.143s] Invoked command in '/home/hrs2025/Workspace/src/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/Workspace/src/ainex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/Workspace/src/install/ainex_description
+[1.145s] Invoking command in '/home/hrs2025/Workspace/src/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/ainex_description -- -j8 -l8
+[1.192s] Invoked command in '/home/hrs2025/Workspace/src/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/Workspace/src/build/ainex_description -- -j8 -l8
+[1.204s] Invoking command in '/home/hrs2025/Workspace/src/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/ainex_description
+[1.212s] -- Install configuration: ""
+[1.213s] -- Execute custom install script
+[1.213s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/launch/display.launch.py
+[1.224s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.urdf
+[1.234s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.urdf.xacro
+[1.244s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/ainex.xacro
+[1.255s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/gazebo.xacro
+[1.265s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/materials.xacro
+[1.276s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/urdf/transmissions.xacro
+[1.287s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/body_link.STL
+[1.299s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/head_pan_link.STL
+[1.309s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/head_tilt_link.STL
+[1.320s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_ank_pitch_link.STL
+[1.330s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_ank_roll_link.STL
+[1.342s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_el_pitch_link.STL
+[1.355s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_el_yaw_link.STL
+[1.365s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_gripper_link.STL
+[1.375s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_pitch_link.STL
+[1.387s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_roll_link.STL
+[1.399s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_hip_yaw_link.STL
+[1.410s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_knee_link.STL
+[1.421s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_sho_pitch_link.STL
+[1.432s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/l_sho_roll_link.STL
+[1.446s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_ank_pitch_link.STL
+[1.456s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_ank_roll_link.STL
+[1.466s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_el_pitch_link.STL
+[1.478s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_el_yaw_link.STL
+[1.491s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_gripper_link.STL
+[1.504s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_pitch_link.STL
+[1.516s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_roll_link.STL
+[1.527s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_hip_yaw_link.STL
+[1.538s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_knee_link.STL
+[1.549s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_sho_pitch_link.STL
+[1.563s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/meshes/r_sho_roll_link.STL
+[1.575s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/rviz/ainex.rviz
+[1.586s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/package_run_dependencies/ainex_description
+[1.599s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/parent_prefix_path/ainex_description
+[1.610s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/ament_prefix_path.sh
+[1.625s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/ament_prefix_path.dsv
+[1.639s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/path.sh
+[1.653s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/environment/path.dsv
+[1.666s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.bash
+[1.677s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.sh
+[1.688s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.zsh
+[1.701s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/local_setup.dsv
+[1.715s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.dsv
+[1.728s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ament_index/resource_index/packages/ainex_description
+[1.737s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig.cmake
+[1.747s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig-version.cmake
+[1.758s] -- Symlinking: /home/hrs2025/Workspace/src/install/ainex_description/share/ainex_description/package.xml
+[1.770s] Invoked command in '/home/hrs2025/Workspace/src/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/Workspace/src/install/ainex_controller:/home/hrs2025/Workspace/src/install/ainex_social_robot:/home/hrs2025/Workspace/src/install/ainex_motion:/home/hrs2025/Workspace/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/Workspace/src/build/ainex_description

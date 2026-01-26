@@ -1,0 +1,54 @@
+[0.267s] Invoking command in '/home/hrs2025/20260121/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/20260121/build/ainex_description -- -j8 -l8
+[0.309s] Invoked command in '/home/hrs2025/20260121/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/20260121/build/ainex_description -- -j8 -l8
+[0.321s] Invoking command in '/home/hrs2025/20260121/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/20260121/build/ainex_description
+[0.330s] -- Install configuration: ""
+[0.331s] -- Execute custom install script
+[0.332s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/launch/display.launch.py
+[0.332s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/ainex.urdf
+[0.333s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/ainex.urdf.xacro
+[0.333s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/ainex.xacro
+[0.333s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/gazebo.xacro
+[0.333s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/materials.xacro
+[0.334s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/urdf/transmissions.xacro
+[0.334s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/body_link.STL
+[0.334s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/head_pan_link.STL
+[0.334s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/head_tilt_link.STL
+[0.334s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_ank_pitch_link.STL
+[0.335s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_ank_roll_link.STL
+[0.335s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_el_pitch_link.STL
+[0.335s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_el_yaw_link.STL
+[0.335s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_gripper_link.STL
+[0.336s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_hip_pitch_link.STL
+[0.336s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_hip_roll_link.STL
+[0.336s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_hip_yaw_link.STL
+[0.336s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_knee_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_sho_pitch_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/l_sho_roll_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_ank_pitch_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_ank_roll_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_el_pitch_link.STL
+[0.337s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_el_yaw_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_gripper_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_hip_pitch_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_hip_roll_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_hip_yaw_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_knee_link.STL
+[0.338s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_sho_pitch_link.STL
+[0.339s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/meshes/r_sho_roll_link.STL
+[0.339s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/rviz/ainex.rviz
+[0.339s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ament_index/resource_index/package_run_dependencies/ainex_description
+[0.339s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ament_index/resource_index/parent_prefix_path/ainex_description
+[0.340s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/environment/ament_prefix_path.sh
+[0.340s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/environment/ament_prefix_path.dsv
+[0.340s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/environment/path.sh
+[0.340s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/environment/path.dsv
+[0.340s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/local_setup.bash
+[0.341s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/local_setup.sh
+[0.341s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/local_setup.zsh
+[0.341s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/local_setup.dsv
+[0.341s] -- Symlinking: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/package.dsv
+[0.351s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ament_index/resource_index/packages/ainex_description
+[0.351s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig.cmake
+[0.351s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig-version.cmake
+[0.351s] -- Up-to-date symlink: /home/hrs2025/20260121/install/ainex_description/share/ainex_description/package.xml
+[0.353s] Invoked command in '/home/hrs2025/20260121/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/20260121/build/ainex_description

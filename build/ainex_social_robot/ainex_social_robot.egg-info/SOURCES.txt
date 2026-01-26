@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+ainex_social_robot/__init__.py
+ainex_social_robot/combine_node.py
+ainex_social_robot/shake_head_node.py
+ainex_social_robot/wave_hand_node.py
+ainex_social_robot.egg-info/PKG-INFO
+ainex_social_robot.egg-info/SOURCES.txt
+ainex_social_robot.egg-info/dependency_links.txt
+ainex_social_robot.egg-info/entry_points.txt
+ainex_social_robot.egg-info/requires.txt
+ainex_social_robot.egg-info/top_level.txt
+ainex_social_robot.egg-info/zip-safe
+launch/social_pipeline.launch.py
+resource/ainex_social_robot

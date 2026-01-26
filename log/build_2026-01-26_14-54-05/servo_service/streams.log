@@ -1,0 +1,339 @@
+[0.026s] Invoking command in '/home/hrs2025/20260121/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/20260121/build/servo_service -- -j8 -l8
+[0.282s] [  0%] Built target servo_service__rosidl_generator_type_description
+[0.282s] [  0%] Built target ament_cmake_python_symlink_servo_service
+[0.283s] [ 26%] Built target servo_service__rosidl_generator_c
+[0.444s] running egg_info
+[0.479s] writing servo_service.egg-info/PKG-INFO
+[0.480s] writing dependency_links to servo_service.egg-info/dependency_links.txt
+[0.480s] writing top-level names to servo_service.egg-info/top_level.txt
+[0.576s] reading manifest file 'servo_service.egg-info/SOURCES.txt'
+[0.577s] writing manifest file 'servo_service.egg-info/SOURCES.txt'
+[0.612s] [ 26%] Built target ament_cmake_python_build_servo_service_egg
+[0.641s] [ 36%] Built target servo_service__rosidl_typesupport_c
+[0.669s] [ 46%] Built target servo_service__rosidl_typesupport_introspection_c
+[0.703s] [ 55%] Built target servo_service__rosidl_typesupport_fastrtps_c
+[0.728s] [ 55%] Built target servo_service__cpp
+[0.759s] [ 65%] Built target servo_service__rosidl_typesupport_cpp
+[0.793s] [ 75%] Built target servo_service__rosidl_typesupport_introspection_cpp
+[0.830s] [ 85%] Built target servo_service__rosidl_typesupport_fastrtps_cpp
+[0.855s] [ 85%] Built target servo_service
+[0.880s] [ 86%] Built target servo_service__py
+[0.914s] [ 96%] Built target servo_service__rosidl_generator_py
+[0.941s] [ 97%] Built target servo_service_s__rosidl_typesupport_fastrtps_c
+[0.968s] [ 98%] Built target servo_service_s__rosidl_typesupport_c
+[0.994s] [100%] Built target servo_service_s__rosidl_typesupport_introspection_c
+[1.012s] Invoked command in '/home/hrs2025/20260121/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/20260121/build/servo_service -- -j8 -l8
+[1.013s] Invoking command in '/home/hrs2025/20260121/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/20260121/build/servo_service
+[1.025s] -- Install configuration: ""
+[1.028s] -- Execute custom install script
+[1.028s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/ament_index/resource_index/rosidl_interfaces/servo_service
+[1.028s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/ChangeServoPositions.json
+[1.029s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetServoPositions.json
+[1.029s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetJointLock.json
+[1.029s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/GetServoPositions.json
+[1.030s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetPosture.json
+[1.030s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBox.json
+[1.030s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.json
+[1.031s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointLock.json
+[1.031s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoTemp.json
+[1.031s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoDeviation.json
+[1.032s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoVoltage.json
+[1.032s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointPosition.json
+[1.032s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointRange.json
+[1.034s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.h
+[1.034s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__functions.h
+[1.035s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.h
+[1.035s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.h
+[1.035s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__functions.h
+[1.035s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__struct.h
+[1.035s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__type_support.h
+[1.036s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__functions.h
+[1.036s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__struct.h
+[1.036s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__type_support.h
+[1.036s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__functions.h
+[1.037s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.h
+[1.037s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.h
+[1.037s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__functions.h
+[1.037s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.h
+[1.038s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.h
+[1.038s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__functions.h
+[1.038s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.h
+[1.038s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.h
+[1.039s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__functions.h
+[1.039s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.h
+[1.039s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.h
+[1.039s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box.h
+[1.040s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box_array.h
+[1.040s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.h
+[1.040s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_c__visibility_control.h
+[1.040s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.h
+[1.041s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_posture.h
+[1.041s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.h
+[1.041s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__functions.h
+[1.042s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.h
+[1.042s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.h
+[1.042s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__functions.h
+[1.042s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.h
+[1.043s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.h
+[1.043s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__functions.h
+[1.043s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.h
+[1.043s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.h
+[1.044s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__functions.h
+[1.044s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.h
+[1.044s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.h
+[1.044s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__functions.h
+[1.044s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.h
+[1.045s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.h
+[1.045s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__functions.h
+[1.045s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.h
+[1.045s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.h
+[1.046s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_lock.h
+[1.046s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_position.h
+[1.046s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_range.h
+[1.046s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.h
+[1.046s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_temp.h
+[1.047s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.h
+[1.047s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/library_path.sh
+[1.047s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/library_path.dsv
+[1.049s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_c.h
+[1.049s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_fastrtps_c.h
+[1.049s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_fastrtps_c.h
+[1.049s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_c.h
+[1.050s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_c.h
+[1.050s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_c.h
+[1.050s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_c.h
+[1.050s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.051s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_c.h
+[1.051s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_c.h
+[1.051s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_c.h
+[1.052s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_c.h
+[1.052s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_c.h
+[1.052s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_c.h
+[1.053s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.hpp
+[1.054s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__builder.hpp
+[1.054s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.hpp
+[1.054s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__traits.hpp
+[1.054s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.hpp
+[1.055s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__builder.hpp
+[1.055s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__struct.hpp
+[1.055s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__traits.hpp
+[1.055s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__type_support.hpp
+[1.056s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__builder.hpp
+[1.056s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__struct.hpp
+[1.056s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__traits.hpp
+[1.056s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__type_support.hpp
+[1.057s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__builder.hpp
+[1.057s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.hpp
+[1.057s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__traits.hpp
+[1.058s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.hpp
+[1.058s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__builder.hpp
+[1.058s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.hpp
+[1.058s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__traits.hpp
+[1.058s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.hpp
+[1.059s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__builder.hpp
+[1.059s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.hpp
+[1.059s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__traits.hpp
+[1.059s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.hpp
+[1.060s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__builder.hpp
+[1.060s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.hpp
+[1.060s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__traits.hpp
+[1.060s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.hpp
+[1.061s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box.hpp
+[1.061s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box_array.hpp
+[1.061s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.hpp
+[1.061s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.061s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.hpp
+[1.062s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_posture.hpp
+[1.062s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.hpp
+[1.062s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__builder.hpp
+[1.062s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.hpp
+[1.062s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__traits.hpp
+[1.063s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.hpp
+[1.063s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__builder.hpp
+[1.063s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.hpp
+[1.063s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__traits.hpp
+[1.063s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.hpp
+[1.064s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__builder.hpp
+[1.064s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.hpp
+[1.064s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__traits.hpp
+[1.064s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.hpp
+[1.065s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__builder.hpp
+[1.065s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.hpp
+[1.065s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__traits.hpp
+[1.065s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.hpp
+[1.066s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__builder.hpp
+[1.066s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.hpp
+[1.066s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__traits.hpp
+[1.066s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.hpp
+[1.066s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__builder.hpp
+[1.067s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.hpp
+[1.067s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__traits.hpp
+[1.068s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.hpp
+[1.068s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_lock.hpp
+[1.069s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_position.hpp
+[1.069s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/joint_range.hpp
+[1.069s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.hpp
+[1.069s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_temp.hpp
+[1.069s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.hpp
+[1.070s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.070s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.072s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[1.072s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.072s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[1.072s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_cpp.hpp
+[1.074s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_cpp.hpp
+[1.074s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_cpp.hpp
+[1.074s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_c.h
+[1.074s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_introspection_c.h
+[1.074s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_introspection_c.h
+[1.075s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_c.h
+[1.075s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_c.h
+[1.075s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_c.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_c.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_c.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_c.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_c.h
+[1.076s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_c.h
+[1.077s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_c.h
+[1.077s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_c.h
+[1.078s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[1.078s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[1.078s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.080s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_cpp.hpp
+[1.080s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_cpp.hpp
+[1.080s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_cpp.hpp
+[1.080s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_cpp.hpp
+[1.081s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/pythonpath.sh
+[1.081s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/pythonpath.dsv
+[1.081s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/PKG-INFO
+[1.082s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.082s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.082s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/top_level.txt
+[1.084s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/__init__.py
+[1.084s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c
+[1.084s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.085s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
+[1.085s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/__init__.py
+[1.085s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions.py
+[1.085s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions_s.c
+[1.086s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box.py
+[1.086s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_array.py
+[1.086s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_array_s.c
+[1.086s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_s.c
+[1.086s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions.py
+[1.087s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions_s.c
+[1.087s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock.py
+[1.087s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock_s.c
+[1.087s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture.py
+[1.088s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture_s.c
+[1.088s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions.py
+[1.088s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions_s.c
+[1.088s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[1.089s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[1.089s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[1.089s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/__init__.py
+[1.089s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock.py
+[1.090s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock_s.c
+[1.090s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position.py
+[1.090s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position_s.c
+[1.090s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range.py
+[1.090s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range_s.c
+[1.091s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation.py
+[1.091s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation_s.c
+[1.091s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp.py
+[1.091s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp_s.c
+[1.092s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage.py
+[1.092s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage_s.c
+[1.092s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[1.093s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[1.093s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[1.093s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/ChangeServoPositions.idl
+[1.093s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetServoPositions.idl
+[1.094s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetJointLock.idl
+[1.094s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/GetServoPositions.idl
+[1.094s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetPosture.idl
+[1.094s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBox.idl
+[1.095s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.idl
+[1.095s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointLock.idl
+[1.095s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoTemp.idl
+[1.096s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoDeviation.idl
+[1.096s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoVoltage.idl
+[1.096s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointPosition.idl
+[1.096s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointRange.idl
+[1.097s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/ChangeServoPositions.msg
+[1.097s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetServoPositions.msg
+[1.097s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetJointLock.msg
+[1.097s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/GetServoPositions.msg
+[1.098s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/SetPosture.msg
+[1.098s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBox.msg
+[1.098s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.msg
+[1.098s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointLock.srv
+[1.098s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoTemp.srv
+[1.099s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoDeviation.srv
+[1.099s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/ServoVoltage.srv
+[1.099s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointPosition.srv
+[1.099s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/srv/JointRange.srv
+[1.099s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/ament_index/resource_index/package_run_dependencies/servo_service
+[1.100s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/ament_index/resource_index/parent_prefix_path/servo_service
+[1.100s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/ament_prefix_path.sh
+[1.100s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/ament_prefix_path.dsv
+[1.100s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/path.sh
+[1.100s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/environment/path.dsv
+[1.101s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/local_setup.bash
+[1.101s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/local_setup.sh
+[1.101s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/local_setup.zsh
+[1.102s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/local_setup.dsv
+[1.102s] -- Symlinking: /home/hrs2025/20260121/install/servo_service/share/servo_service/package.dsv
+[1.112s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/ament_index/resource_index/packages/servo_service
+[1.113s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/rosidl_cmake-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/ament_cmake_export_libraries-extras.cmake
+[1.114s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/ament_cmake_export_targets-extras.cmake
+[1.114s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.114s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.114s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_serviceConfig.cmake
+[1.114s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_serviceConfig-version.cmake
+[1.115s] -- Up-to-date symlink: /home/hrs2025/20260121/install/servo_service/share/servo_service/package.xml
+[1.115s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_generator_c.so
+[1.116s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_c.so
+[1.116s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_cpp.so
+[1.117s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_c.so
+[1.117s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_c.so
+[1.118s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_cpp.so
+[1.118s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_typesupport_cpp.so
+[1.175s] Listing '/home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service'...
+[1.175s] Listing '/home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/msg'...
+[1.175s] Listing '/home/hrs2025/20260121/install/servo_service/lib/python3.12/site-packages/servo_service/srv'...
+[1.183s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/lib/libservo_service__rosidl_generator_py.so
+[1.183s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport.cmake
+[1.184s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport-noconfig.cmake
+[1.184s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport.cmake
+[1.184s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.184s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cppExport.cmake
+[1.184s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport-noconfig.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport.cmake
+[1.185s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.186s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport.cmake
+[1.186s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport-noconfig.cmake
+[1.186s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport.cmake
+[1.186s] -- Up-to-date: /home/hrs2025/20260121/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport-noconfig.cmake
+[1.188s] Invoked command in '/home/hrs2025/20260121/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/20260121/install/ainex_controller:/home/hrs2025/20260121/install/ainex_social_robot:/home/hrs2025/20260121/install/ainex_motion:/home/hrs2025/20260121/install/ainex_vision:/home/hrs2025/backup/20260121/install/ainex_controller:/home/hrs2025/backup/20260121/install/ainex_social_robot:/home/hrs2025/backup/20260121/install/ainex_motion:/home/hrs2025/backup/20260121/install/ainex_vision:/home/hrs2025/Workspace/install/ainex_controller:/home/hrs2025/Workspace/install/ainex_social_robot:/home/hrs2025/Workspace/install/ainex_motion:/home/hrs2025/Workspace/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/20260121/build/servo_service

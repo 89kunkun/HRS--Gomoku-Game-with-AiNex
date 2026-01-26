@@ -1,0 +1,1 @@
+/home/hrs2025/20260121/build/ainex_description/ament_cmake_environment_hooks/local_setup.bash

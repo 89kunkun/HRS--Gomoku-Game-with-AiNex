@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing ainex_controller.egg-info/PKG-INFO
+writing dependency_links to ainex_controller.egg-info/dependency_links.txt
+writing entry points to ainex_controller.egg-info/entry_points.txt
+writing requirements to ainex_controller.egg-info/requires.txt
+writing top-level names to ainex_controller.egg-info/top_level.txt
+reading manifest file 'ainex_controller.egg-info/SOURCES.txt'
+writing manifest file 'ainex_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hrs2025/20260121/install/ainex_controller/lib/python3.12/site-packages/ainex-controller.egg-link (link to .)
+Installing ainex_arm_controller script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+Installing ainex_hands_control_node script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+Installing ainex_minimal_fsm script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+Installing ainex_twohands_control_node script to /home/hrs2025/20260121/install/ainex_controller/lib/ainex_controller
+
+Installed /home/hrs2025/20260121/build/ainex_controller
+running symlink_data

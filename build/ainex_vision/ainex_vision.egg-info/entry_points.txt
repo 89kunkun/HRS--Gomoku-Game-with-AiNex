@@ -1,0 +1,13 @@
+[console_scripts]
+arrayoutput = ainex_vision.arrayoutput:main
+aruco_board_location = ainex_vision.aruco_board_location:main
+aruco_detector = ainex_vision.aruco_detector:main
+calibrate_camera = ainex_vision.calibrate_camera:main
+calibration = ainex_vision.calibration:main
+camera_sub = ainex_vision.camera_sub:main
+face_detection_node = ainex_vision.face_detection_node:main
+pieces_detection = ainex_vision.pieces_detection:main
+tutorial_2 = ainex_vision.tutorial_2:main
+tutorial_3 = ainex_vision.tutorial_3:main
+tutorial_4 = ainex_vision.tutorial_4:main
+undistort_node = ainex_vision.undistort_node:main

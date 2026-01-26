@@ -1,0 +1,1 @@
+/home/hrs2025/20260121/build/servo_service/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp

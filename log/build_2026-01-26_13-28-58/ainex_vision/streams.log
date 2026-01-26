@@ -1,0 +1,37 @@
+[1.195s] Invoking command in '/home/hrs2025/20260121/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/20260121/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/20260121/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/20260121/build/ainex_vision/build --no-deps symlink_data
+[1.588s] running develop
+[1.844s] running egg_info
+[1.844s] creating ainex_vision.egg-info
+[1.868s] writing ainex_vision.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ainex_vision.egg-info/dependency_links.txt
+[1.868s] writing entry points to ainex_vision.egg-info/entry_points.txt
+[1.868s] writing requirements to ainex_vision.egg-info/requires.txt
+[1.869s] writing top-level names to ainex_vision.egg-info/top_level.txt
+[1.869s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.917s] reading manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.918s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.943s] running build_ext
+[1.943s] Creating /home/hrs2025/20260121/install/ainex_vision/lib/python3.12/site-packages/ainex-vision.egg-link (link to .)
+[1.944s] Installing arrayoutput script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.944s] Installing aruco_board_location script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.944s] Installing aruco_detector script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.944s] Installing calibrate_camera script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing calibration script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing camera_sub script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing face_detection_node script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing pieces_detection script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing tutorial_2 script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing tutorial_3 script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing tutorial_4 script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.945s] Installing undistort_node script to /home/hrs2025/20260121/install/ainex_vision/lib/ainex_vision
+[1.946s] 
+[1.946s] Installed /home/hrs2025/20260121/build/ainex_vision
+[1.946s] running symlink_data
+[1.946s] creating /home/hrs2025/20260121/install/ainex_vision/share/ament_index
+[1.946s] creating /home/hrs2025/20260121/install/ainex_vision/share/ament_index/resource_index
+[1.946s] creating /home/hrs2025/20260121/install/ainex_vision/share/ament_index/resource_index/packages
+[1.946s] symbolically linking /home/hrs2025/20260121/build/ainex_vision/resource/ainex_vision -> /home/hrs2025/20260121/install/ainex_vision/share/ament_index/resource_index/packages
+[1.946s] symbolically linking /home/hrs2025/20260121/build/ainex_vision/package.xml -> /home/hrs2025/20260121/install/ainex_vision/share/ainex_vision
+[1.946s] creating /home/hrs2025/20260121/install/ainex_vision/share/ainex_vision/config
+[1.946s] symbolically linking /home/hrs2025/20260121/build/ainex_vision/ainex_vision/camera.yaml -> /home/hrs2025/20260121/install/ainex_vision/share/ainex_vision/config
+[1.979s] Invoked command in '/home/hrs2025/20260121/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/20260121/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/20260121/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/20260121/build/ainex_vision/build --no-deps symlink_data

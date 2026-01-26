@@ -1,0 +1,34 @@
+[0.843s] Invoking command in '/home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/build --no-deps symlink_data
+[1.191s] running develop
+[1.499s] running egg_info
+[1.499s] creating ainex_vision.egg-info
+[1.526s] writing ainex_vision.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ainex_vision.egg-info/dependency_links.txt
+[1.526s] writing entry points to ainex_vision.egg-info/entry_points.txt
+[1.526s] writing requirements to ainex_vision.egg-info/requires.txt
+[1.527s] writing top-level names to ainex_vision.egg-info/top_level.txt
+[1.527s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.582s] reading manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.582s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.610s] running build_ext
+[1.610s] Creating /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex-vision.egg-link (link to .)
+[1.611s] Installing aruco_detector script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.611s] Installing calibrate_camera script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.612s] Installing calibration script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.612s] Installing camera_sub script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.612s] Installing face_detection_node script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.613s] Installing tutorial_2 script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.613s] Installing tutorial_3 script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.613s] Installing tutorial_4 script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.613s] Installing undistort_node script to /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.613s] 
+[1.613s] Installed /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision
+[1.614s] running symlink_data
+[1.614s] creating /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ament_index
+[1.614s] creating /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index
+[1.614s] creating /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index/packages
+[1.614s] symbolically linking /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/resource/ainex_vision -> /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index/packages
+[1.614s] symbolically linking /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/package.xml -> /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ainex_vision
+[1.615s] creating /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ainex_vision/config
+[1.615s] symbolically linking /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/ainex_vision/camera.yaml -> /home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/share/ainex_vision/config
+[1.659s] Invoked command in '/home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/Workspace/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/Workspace/src/ainex_vision/build/ainex_vision/build --no-deps symlink_data

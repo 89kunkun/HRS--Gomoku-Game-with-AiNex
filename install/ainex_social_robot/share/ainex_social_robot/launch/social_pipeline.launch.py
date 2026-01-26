@@ -1,0 +1,1 @@
+/home/hrs2025/20260121/build/ainex_social_robot/launch/social_pipeline.launch.py
