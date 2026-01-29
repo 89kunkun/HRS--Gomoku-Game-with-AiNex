@@ -13,7 +13,7 @@ from std_msgs.msg import String, Empty, Int16MultiArray
 from gomoku_visualization.ui.renderer import GomokuRenderer, VizState, MoveItem
 
 
-BOARD_N = 15
+BOARD_N = 16  # 棋盘尺寸 16x16
 
 
 def clamp_rc(r: int, c: int) -> Optional[Tuple[int, int]]:
@@ -24,14 +24,14 @@ def clamp_rc(r: int, c: int) -> Optional[Tuple[int, int]]:
 
 class GomokuVisualizerNode(Node):
     """
-    Subscribe:
-      /gomoku/move           Int16MultiArray  [row, col, player]  player: 1 black, 2 white
-      /gomoku/current_player String          "black" / "white"
-      /gomoku/warning        String
-      /gomoku/reset          Empty
+    Subscribe / 订阅:
+      /gomoku/move           Int16MultiArray  [row, col, player]  player: 1 black, 2 white  （接收走子：[行,列,执子方]）
+      /gomoku/current_player String          "black" / "white"    （当前轮到的棋手）
+      /gomoku/warning        String                                （提示信息）
+      /gomoku/reset          Empty                                 （棋盘重置信号）
 
-    Maintain local:
-      board[15,15], move_history, last_move
+    Maintain local :
+      board[16,16], move_history, last_move
     """
 
     def __init__(self):
@@ -49,11 +49,11 @@ class GomokuVisualizerNode(Node):
         # renderer (pygame)
         self._renderer = GomokuRenderer(board_size=BOARD_N)
 
-        # subscribers
-        self.create_subscription(Int16MultiArray, "/gomoku/move", self.cb_move, 10)
-        self.create_subscription(String, "/gomoku/current_player", self.cb_current_player, 10)
-        self.create_subscription(String, "/gomoku/warning", self.cb_warning, 10)
-        self.create_subscription(Empty, "/gomoku/reset", self.cb_reset, 10)
+        # subscribers 
+        self.create_subscription(Int16MultiArray, "/gomoku/move", self.cb_move, 10)  # 接收走子：[row, col, player]
+        #self.create_subscription(String, "/gomoku/current_player", self.cb_current_player, 10)  # 当前执子方
+        self.create_subscription(String, "/gomoku/warning", self.cb_warning, 10)  # 文本警告
+        self.create_subscription(Empty, "/gomoku/reset", self.cb_reset, 10)  # 重置棋盘
 
         # timer: drive GUI refresh (30 FPS)
         self.create_timer(1.0 / 30.0, self.on_timer)
