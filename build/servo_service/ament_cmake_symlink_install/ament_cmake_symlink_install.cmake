@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/servo_service/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/servo_service/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/servo_service/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/hrs2025/Workspace/src/install/servo_service/${destination}")
+      set(destination "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,230 +310,230 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/servo_service" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/servo_service" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/servo_service" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/servo_service" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetServoPositions.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetServoPositions.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetServoPositions.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetServoPositions.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetJointLock.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetJointLock.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetJointLock.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetJointLock.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/GetServoPositions.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/GetServoPositions.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/GetServoPositions.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/GetServoPositions.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetPosture.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetPosture.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetPosture.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/SetPosture.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBox.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBox.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBox.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBox.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBoxArray.json" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBoxArray.json" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBoxArray.json" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/msg/FaceBoundingBoxArray.json" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointLock.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointLock.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointLock.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointLock.json" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoTemp.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoTemp.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoTemp.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoTemp.json" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoDeviation.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoDeviation.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoDeviation.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoDeviation.json" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoVoltage.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoVoltage.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoVoltage.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/ServoVoltage.json" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointPosition.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointPosition.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointPosition.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointPosition.json" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointRange.json" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointRange.json" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointRange.json" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description/servo_service/srv/JointRange.json" "DESTINATION" "share/servo_service/srv")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/servo_service/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/servo_service/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/servo_service/environment")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_fastrtps_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_fastrtps_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_fastrtps_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_fastrtps_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_fastrtps_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_fastrtps_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_fastrtps_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_fastrtps_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_introspection_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_introspection_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_introspection_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_introspection_c/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_introspection_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_typesupport_introspection_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_introspection_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_typesupport_introspection_cpp/servo_service/" "DESTINATION" "include/servo_service/servo_service" "PATTERN" "*.hpp")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/servo_service/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/servo_service/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/servo_service/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/servo_service/environment")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_python/servo_service/servo_service.egg-info/" "DESTINATION" "lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_python/servo_service/servo_service.egg-info/" "DESTINATION" "lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_python/servo_service/servo_service.egg-info/" "DESTINATION" "lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_python/servo_service/servo_service.egg-info/" "DESTINATION" "lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info")
 
-# install(DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service/" "DESTINATION" "lib/python3.12/site-packages/servo_service" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/servo_service" DIRECTORY "/home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service/" "DESTINATION" "lib/python3.12/site-packages/servo_service" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service/" "DESTINATION" "lib/python3.12/site-packages/servo_service" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" DIRECTORY "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service/" "DESTINATION" "lib/python3.12/site-packages/servo_service" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "servo_service_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/servo_service")
-include("/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "servo_service_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/servo_service")
-include("/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "servo_service_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/servo_service")
-include("/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/ChangeServoPositions.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/ChangeServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/ChangeServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/ChangeServoPositions.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetJointLock.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetJointLock.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetJointLock.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetJointLock.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/GetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/GetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/GetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/GetServoPositions.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetPosture.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/SetPosture.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetPosture.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/SetPosture.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBox.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBox.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBox.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBox.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBoxArray.idl" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBoxArray.idl" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBoxArray.idl" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/msg/FaceBoundingBoxArray.idl" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointLock.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointLock.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointLock.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointLock.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoTemp.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoTemp.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoTemp.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoTemp.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoDeviation.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoDeviation.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoDeviation.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoDeviation.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoVoltage.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/ServoVoltage.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoVoltage.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/ServoVoltage.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointPosition.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointPosition.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointPosition.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointPosition.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointRange.idl" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_adapter/servo_service/srv/JointRange.idl" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointRange.idl" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_adapter/servo_service/srv/JointRange.idl" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/ChangeServoPositions.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/ChangeServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/ChangeServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/ChangeServoPositions.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetJointLock.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetJointLock.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetJointLock.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetJointLock.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/GetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/GetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/GetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/GetServoPositions.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetPosture.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/SetPosture.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetPosture.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetPosture.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/FaceBoundingBox.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/FaceBoundingBox.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/FaceBoundingBox.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/FaceBoundingBox.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/msg/FaceBoundingBoxArray.msg" "DESTINATION" "share/servo_service/msg")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/msg/FaceBoundingBoxArray.msg" "DESTINATION" "share/servo_service/msg")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/FaceBoundingBoxArray.msg" "DESTINATION" "share/servo_service/msg")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/FaceBoundingBoxArray.msg" "DESTINATION" "share/servo_service/msg")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointLock.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointLock.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointLock.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointLock.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoTemp.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoTemp.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoTemp.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoTemp.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoDeviation.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoDeviation.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoDeviation.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoDeviation.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoVoltage.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/ServoVoltage.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoVoltage.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/ServoVoltage.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointPosition.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointPosition.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointPosition.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointPosition.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointRange.srv" "DESTINATION" "share/servo_service/srv")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/srv/JointRange.srv" "DESTINATION" "share/servo_service/srv")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointRange.srv" "DESTINATION" "share/servo_service/srv")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/srv/JointRange.srv" "DESTINATION" "share/servo_service/srv")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/servo_service" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/servo_service" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/servo_service" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/servo_service" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/servo_service" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/servo_service" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/servo_service" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/servo_service" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/servo_service/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/servo_service/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/servo_service/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/servo_service/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/servo_service/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/servo_service/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/servo_service/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/servo_service/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/servo_service")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/servo_service")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/servo_service")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/servo_service")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/servo_service")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/packages/servo_service" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_index/share/ament_index/resource_index/packages/servo_service" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/packages/servo_service" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_index/share/ament_index/resource_index/packages/servo_service" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_core/servo_serviceConfig.cmake" "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_core/servo_serviceConfig-version.cmake" "DESTINATION" "share/servo_service/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_core/servo_serviceConfig.cmake" "/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_core/servo_serviceConfig-version.cmake" "DESTINATION" "share/servo_service/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_core/servo_serviceConfig.cmake" "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_core/servo_serviceConfig-version.cmake" "DESTINATION" "share/servo_service/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_core/servo_serviceConfig.cmake" "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_core/servo_serviceConfig-version.cmake" "DESTINATION" "share/servo_service/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/servo_service/package.xml" "DESTINATION" "share/servo_service")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/servo_service" FILES "/home/hrs2025/Workspace/src/servo_service/package.xml" "DESTINATION" "share/servo_service")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/package.xml" "DESTINATION" "share/servo_service")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/package.xml" "DESTINATION" "share/servo_service")

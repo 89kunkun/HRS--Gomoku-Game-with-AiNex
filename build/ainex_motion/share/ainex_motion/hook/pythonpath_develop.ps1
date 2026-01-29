@@ -1,3 +1,3 @@
 # generated from colcon_powershell/shell/template/hook_prepend_value.ps1.em
 
-colcon_prepend_unique_value PYTHONPATH "$env:COLCON_CURRENT_PREFIX\/home/hrs2025/Workspace/src/build/ainex_motion"
+colcon_prepend_unique_value PYTHONPATH "$env:COLCON_CURRENT_PREFIX\/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion"

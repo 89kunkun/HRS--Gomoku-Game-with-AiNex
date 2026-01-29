@@ -19,31 +19,31 @@ class AiNexModel:
 
         # Add additional frames for left and right hands
         self.add_additional_frames(
-            name="l_hand_link",
-            parent_frame="l_gripper_link",
-            translation=np.array([-0.02, 0.025, 0.0]),
-            rotation=np.eye(3)
-        )
-        self.add_additional_frames(
-            name="r_hand_link",
-            parent_frame="r_gripper_link",
-            translation=np.array([-0.02, -0.025, 0.0]),
-            rotation=np.eye(3)
-        )
-
-        # Add additional frames for marker in left and right hands
-        self.add_additional_frames(
             name="l_marker_link",
-            parent_frame="l_hand_link",
-            translation=np.array([-0.10, 0.0, 0.0]),
+            parent_frame="l_gripper_link",
+            translation=np.array([-0.10, 0.025, -0.05]),
             rotation=np.eye(3)
         )
         self.add_additional_frames(
             name="r_marker_link",
-            parent_frame="r_hand_link",
-            translation=np.array([-0.10, 0.0, 0.0]),
+            parent_frame="r_gripper_link",
+            translation=np.array([-0.10, -0.025, -0.05]),
             rotation=np.eye(3)
         )
+
+        # # Add additional frames for marker in left and right hands
+        # self.add_additional_frames(
+        #     name="l_marker_link",
+        #     parent_frame="l_hand_link",
+        #     translation=np.array([-0.10, 0.025, -0.025]),
+        #     rotation=np.eye(3)
+        # )
+        # self.add_additional_frames(
+        #     name="r_marker_link",
+        #     parent_frame="r_hand_link",
+        #     translation=np.array([-0.10, -0.025, -0.025]),
+        #     rotation=np.eye(3)
+        # )
 
         # Retrieve frame IDs for hands for later use
         self.left_hand_id = self.model.getFrameId("l_marker_link")

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "servo_service/msg/detail/change_servo_positions__functions.h"
 #include "servo_service/msg/detail/change_servo_positions__struct.h"
 #include "servo_service/msg/detail/change_servo_positions__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "servo_service/msg/detail/change_servo_positions__functions.h"
 
 #ifdef __cplusplus
 extern "C"

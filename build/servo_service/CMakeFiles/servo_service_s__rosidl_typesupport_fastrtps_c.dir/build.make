@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o: CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o: CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hrs2025/Workspace/src/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o -MF CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o.d -o CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o -c /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o -MF CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o.d -o CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o -c /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
 
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c > CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c > CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.i
 
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c -o CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c -o CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.s
 
 # Object files for target servo_service_s__rosidl_typesupport_fastrtps_c
 servo_service_s__rosidl_typesupport_fastrtps_c_OBJECTS = \
@@ -118,7 +118,7 @@ rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c
 rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so: CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hrs2025/Workspace/src/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +130,6 @@ CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/clean:
 .PHONY : CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/clean
 
 CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/depend
 

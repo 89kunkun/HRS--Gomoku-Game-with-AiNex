@@ -1,0 +1,75 @@
+[0.253s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description
+[0.315s] -- The C compiler identification is GNU 13.3.0
+[0.378s] -- The CXX compiler identification is GNU 13.3.0
+[0.397s] -- Detecting C compiler ABI info
+[0.491s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.501s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.620s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.640s] -- Detecting CXX compile features
+[0.641s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.812s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.897s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.949s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.086s] -- Configuring done (0.8s)
+[1.089s] -- Generating done (0.0s)
+[1.091s] -- Build files have been written to: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description
+[1.097s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description
+[1.099s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description -- -j8 -l8
+[1.140s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description -- -j8 -l8
+[1.150s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description
+[1.158s] -- Install configuration: ""
+[1.159s] -- Execute custom install script
+[1.159s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/launch/display.launch.py
+[1.169s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/ainex.urdf
+[1.179s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/ainex.urdf.xacro
+[1.189s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/ainex.xacro
+[1.199s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/gazebo.xacro
+[1.209s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/materials.xacro
+[1.219s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/urdf/transmissions.xacro
+[1.230s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/body_link.STL
+[1.240s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/head_pan_link.STL
+[1.249s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/head_tilt_link.STL
+[1.259s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_ank_pitch_link.STL
+[1.269s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_ank_roll_link.STL
+[1.279s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_el_pitch_link.STL
+[1.289s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_el_yaw_link.STL
+[1.298s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_gripper_link.STL
+[1.308s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_hip_pitch_link.STL
+[1.319s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_hip_roll_link.STL
+[1.328s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_hip_yaw_link.STL
+[1.338s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_knee_link.STL
+[1.349s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_sho_pitch_link.STL
+[1.362s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/l_sho_roll_link.STL
+[1.372s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_ank_pitch_link.STL
+[1.382s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_ank_roll_link.STL
+[1.392s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_el_pitch_link.STL
+[1.402s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_el_yaw_link.STL
+[1.411s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_gripper_link.STL
+[1.421s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_hip_pitch_link.STL
+[1.430s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_hip_roll_link.STL
+[1.439s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_hip_yaw_link.STL
+[1.449s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_knee_link.STL
+[1.458s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_sho_pitch_link.STL
+[1.468s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/meshes/r_sho_roll_link.STL
+[1.478s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/rviz/ainex.rviz
+[1.488s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ament_index/resource_index/package_run_dependencies/ainex_description
+[1.500s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ament_index/resource_index/parent_prefix_path/ainex_description
+[1.513s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/environment/ament_prefix_path.sh
+[1.522s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/environment/ament_prefix_path.dsv
+[1.533s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/environment/path.sh
+[1.543s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/environment/path.dsv
+[1.554s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/local_setup.bash
+[1.566s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/local_setup.sh
+[1.582s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/local_setup.zsh
+[1.599s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/local_setup.dsv
+[1.613s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.dsv
+[1.627s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ament_index/resource_index/packages/ainex_description
+[1.642s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig.cmake
+[1.653s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/cmake/ainex_descriptionConfig-version.cmake
+[1.666s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.xml
+[1.683s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description

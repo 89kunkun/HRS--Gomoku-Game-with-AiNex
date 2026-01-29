@@ -6,8 +6,8 @@
 
 #include "servo_service/srv/detail/joint_range__struct.h"
 #include "servo_service/srv/detail/joint_range__functions.h"
-#include "servo_service/srv/detail/joint_range__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "servo_service/srv/detail/joint_range__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

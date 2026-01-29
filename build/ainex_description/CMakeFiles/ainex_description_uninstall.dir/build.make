@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/ainex_description
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/ainex_description
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description
 
 # Utility rule file for ainex_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ainex_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/ainex_description_uninstall.dir/progress.make
 
 CMakeFiles/ainex_description_uninstall:
-	/usr/bin/cmake -P /home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ainex_description_uninstall: CMakeFiles/ainex_description_uninstall
 ainex_description_uninstall: CMakeFiles/ainex_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ainex_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/ainex_description_uninstall.dir/clean
 
 CMakeFiles/ainex_description_uninstall.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/ainex_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/ainex_description /home/hrs2025/Workspace/src/ainex_description /home/hrs2025/Workspace/src/build/ainex_description /home/hrs2025/Workspace/src/build/ainex_description /home/hrs2025/Workspace/src/build/ainex_description/CMakeFiles/ainex_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/CMakeFiles/ainex_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ainex_description_uninstall.dir/depend
 

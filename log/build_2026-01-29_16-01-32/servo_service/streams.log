@@ -1,0 +1,555 @@
+[0.018s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service
+[0.264s] -- The C compiler identification is GNU 13.3.0
+[0.360s] -- The CXX compiler identification is GNU 13.3.0
+[0.380s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.645s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.813s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.896s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.936s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.011s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.038s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.086s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.150s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.168s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.066s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.554s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.712s] -- Found PythonExtra: /usr/bin/python3  
+[4.216s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.291s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.318s] -- Added test 'lint_cmake' to check CMake code style
+[4.320s] -- Added test 'xmllint' to check XML markup files
+[4.325s] -- Configuring done (4.3s)
+[4.397s] -- Generating done (0.1s)
+[4.410s] -- Build files have been written to: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
+[4.420s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service
+[4.422s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service -- -j8 -l8
+[4.478s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.487s] [  0%] Built target ament_cmake_python_symlink_servo_service
+[4.736s] running egg_info
+[4.736s] creating servo_service.egg-info
+[4.760s] writing servo_service.egg-info/PKG-INFO
+[4.760s] writing dependency_links to servo_service.egg-info/dependency_links.txt
+[4.760s] writing top-level names to servo_service.egg-info/top_level.txt
+[4.760s] writing manifest file 'servo_service.egg-info/SOURCES.txt'
+[4.800s] [  0%] Built target servo_service__rosidl_generator_type_description
+[4.812s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.824s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.843s] reading manifest file 'servo_service.egg-info/SOURCES.txt'
+[4.843s] writing manifest file 'servo_service.egg-info/SOURCES.txt'
+[4.874s] [  0%] Built target ament_cmake_python_build_servo_service_egg
+[5.789s] [  0%] Built target servo_service__cpp
+[6.076s] [  2%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__type_support.c.o[0m
+[6.077s] [  2%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__description.c.o[0m
+[6.077s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__functions.c.o[0m
+[6.077s] [  2%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__functions.c.o[0m
+[6.077s] [  3%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__description.c.o[0m
+[6.078s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__type_support.c.o[0m
+[6.078s] [  5%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__description.c.o[0m
+[6.078s] [  6%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__functions.c.o[0m
+[6.142s] [  6%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__type_support.c.o[0m
+[6.145s] [  7%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__description.c.o[0m
+[6.155s] [  7%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__type_support.c.o[0m
+[6.158s] [  8%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__functions.c.o[0m
+[6.158s] [  9%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__description.c.o[0m
+[6.186s] [  9%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__type_support.c.o[0m
+[6.186s] [ 10%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__functions.c.o[0m
+[6.188s] [ 11%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box__description.c.o[0m
+[6.193s] [ 11%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box__functions.c.o[0m
+[6.208s] [ 12%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box__type_support.c.o[0m
+[6.209s] [ 13%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box_array__description.c.o[0m
+[6.224s] [ 13%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box_array__functions.c.o[0m
+[6.241s] [ 14%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/face_bounding_box_array__type_support.c.o[0m
+[6.252s] [ 15%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__description.c.o[0m
+[6.254s] [ 15%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__functions.c.o[0m
+[6.264s] [ 16%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__type_support.c.o[0m
+[6.273s] [ 17%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__description.c.o[0m
+[6.278s] [ 17%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__functions.c.o[0m
+[6.284s] [ 18%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.c.o[0m
+[6.300s] [ 19%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__description.c.o[0m
+[6.311s] [ 19%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__functions.c.o[0m
+[6.334s] [ 20%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__type_support.c.o[0m
+[6.341s] [ 21%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__description.c.o[0m
+[6.355s] [ 21%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__functions.c.o[0m
+[6.364s] [ 22%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__type_support.c.o[0m
+[6.384s] [ 23%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__description.c.o[0m
+[6.385s] [ 23%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__functions.c.o[0m
+[6.403s] [ 24%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__type_support.c.o[0m
+[6.404s] [ 24%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__description.c.o[0m
+[6.431s] [ 26%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__type_support.c.o[0m
+[6.431s] [ 25%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__functions.c.o[0m
+[6.529s] [ 26%] [32m[1mLinking C shared library libservo_service__rosidl_generator_c.so[0m
+[6.578s] [ 26%] Built target servo_service__rosidl_generator_c
+[6.591s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.591s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.592s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.594s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.594s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.594s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.196s] [ 32%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/change_servo_positions__type_support.cpp.o[0m
+[7.196s] [ 32%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_servo_positions__type_support.cpp.o[0m
+[7.196s] [ 33%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_joint_lock__type_support.cpp.o[0m
+[7.591s] [ 33%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/change_servo_positions__type_support.cpp.o[0m
+[7.680s] [ 34%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_servo_positions__type_support.cpp.o[0m
+[7.756s] [ 35%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_joint_lock__type_support.cpp.o[0m
+[7.763s] [ 35%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/change_servo_positions__type_support.cpp.o[0m
+[7.768s] [ 35%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/get_servo_positions__type_support.cpp.o[0m
+[7.769s] [ 36%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_servo_positions__type_support.cpp.o[0m
+[7.788s] [ 36%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/get_servo_positions__type_support.cpp.o[0m
+[7.838s] [ 36%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_joint_lock__type_support.cpp.o[0m
+[7.845s] [ 37%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_posture__type_support.cpp.o[0m
+[7.925s] [ 38%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/face_bounding_box__type_support.cpp.o[0m
+[8.001s] [ 38%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/face_bounding_box_array__type_support.cpp.o[0m
+[8.080s] [ 39%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_lock__type_support.cpp.o[0m
+[8.138s] [ 39%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/change_servo_positions__type_support.c.o[0m
+[8.165s] [ 40%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_temp__type_support.cpp.o[0m
+[8.212s] [ 41%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_servo_positions__type_support.c.o[0m
+[8.251s] [ 41%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_deviation__type_support.cpp.o[0m
+[8.286s] [ 42%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_joint_lock__type_support.c.o[0m
+[8.315s] [ 43%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_posture__type_support.cpp.o[0m
+[8.333s] [ 44%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_voltage__type_support.cpp.o[0m
+[8.357s] [ 44%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/get_servo_positions__type_support.c.o[0m
+[8.408s] [ 44%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/face_bounding_box__type_support.cpp.o[0m
+[8.419s] [ 45%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_position__type_support.cpp.o[0m
+[8.425s] [ 46%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_posture__type_support.c.o[0m
+[8.430s] [ 47%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/get_servo_positions__type_support.cpp.o[0m
+[8.432s] [ 47%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_range__type_support.cpp.o[0m
+[8.493s] [ 48%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/face_bounding_box__type_support.c.o[0m
+[8.506s] [ 49%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_posture__type_support.cpp.o[0m
+[8.516s] [ 50%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_c.so[0m
+[8.556s] [ 50%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/face_bounding_box_array__type_support.c.o[0m
+[8.600s] [ 50%] Built target servo_service__rosidl_typesupport_c
+[8.615s] [ 51%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/face_bounding_box_array__type_support.cpp.o[0m
+[8.640s] [ 52%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_lock__type_support.c.o[0m
+[8.741s] [ 53%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_temp__type_support.c.o[0m
+[8.839s] [ 53%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_deviation__type_support.c.o[0m
+[8.853s] [ 54%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/change_servo_positions__type_support.cpp.o[0m
+[8.868s] [ 54%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_servo_positions__type_support.cpp.o[0m
+[8.895s] [ 55%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/change_servo_positions__type_support_c.cpp.o[0m
+[8.932s] [ 56%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_voltage__type_support.c.o[0m
+[8.972s] [ 57%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_joint_lock__type_support.cpp.o[0m
+[9.029s] [ 58%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_position__type_support.c.o[0m
+[9.058s] [ 59%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/get_servo_positions__type_support.cpp.o[0m
+[9.100s] [ 59%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/face_bounding_box__type_support.cpp.o[0m
+[9.130s] [ 59%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_range__type_support.c.o[0m
+[9.159s] [ 60%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_lock__type_support.cpp.o[0m
+[9.225s] [ 61%] [32m[1mLinking C shared library libservo_service__rosidl_typesupport_introspection_c.so[0m
+[9.288s] [ 61%] Built target servo_service__rosidl_typesupport_introspection_c
+[9.303s] [ 61%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_temp__type_support.cpp.o[0m
+[9.655s] [ 62%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/face_bounding_box_array__type_support.cpp.o[0m
+[9.792s] [ 63%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_servo_positions__type_support_c.cpp.o[0m
+[9.805s] [ 64%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_lock__type_support.cpp.o[0m
+[9.852s] [ 64%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_temp__type_support.cpp.o[0m
+[9.915s] [ 64%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_posture__type_support.cpp.o[0m
+[9.963s] [ 64%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_joint_lock__type_support_c.cpp.o[0m
+[10.014s] [ 65%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_deviation__type_support.cpp.o[0m
+[10.074s] [ 66%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_deviation__type_support.cpp.o[0m
+[10.297s] [ 67%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/get_servo_positions__type_support_c.cpp.o[0m
+[10.674s] [ 68%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/face_bounding_box__type_support.cpp.o[0m
+[10.688s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_voltage__type_support.cpp.o[0m
+[10.796s] [ 70%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_posture__type_support_c.cpp.o[0m
+[10.817s] [ 70%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_position__type_support.cpp.o[0m
+[10.819s] [ 71%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_voltage__type_support.cpp.o[0m
+[10.882s] [ 71%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/face_bounding_box__type_support_c.cpp.o[0m
+[10.977s] [ 71%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_position__type_support.cpp.o[0m
+[11.101s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/face_bounding_box_array__type_support.cpp.o[0m
+[11.459s] [ 73%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_range__type_support.cpp.o[0m
+[11.484s] [ 74%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/face_bounding_box_array__type_support_c.cpp.o[0m
+[11.588s] [ 75%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_range__type_support.cpp.o[0m
+[11.629s] [ 75%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_lock__type_support.cpp.o[0m
+[11.695s] [ 76%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_temp__type_support.cpp.o[0m
+[11.770s] [ 76%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_lock__type_support_c.cpp.o[0m
+[11.925s] [ 77%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_deviation__type_support.cpp.o[0m
+[11.981s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_temp__type_support_c.cpp.o[0m
+[12.294s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_voltage__type_support.cpp.o[0m
+[12.358s] [ 79%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_cpp.so[0m
+[12.397s] [ 80%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_introspection_cpp.so[0m
+[12.560s] [ 80%] Built target servo_service__rosidl_typesupport_cpp
+[12.578s] [ 81%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_deviation__type_support_c.cpp.o[0m
+[12.636s] [ 81%] Built target servo_service__rosidl_typesupport_introspection_cpp
+[12.649s] [ 82%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_position__type_support.cpp.o[0m
+[12.663s] [ 82%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_range__type_support.cpp.o[0m
+[12.824s] [ 82%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_voltage__type_support_c.cpp.o[0m
+[12.852s] [ 83%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_position__type_support_c.cpp.o[0m
+[12.928s] [ 84%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_range__type_support_c.cpp.o[0m
+[13.657s] [ 84%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_fastrtps_c.so[0m
+[13.750s] [ 85%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.754s] [ 85%] Built target servo_service__rosidl_typesupport_fastrtps_c
+[13.863s] [ 85%] Built target servo_service__rosidl_typesupport_fastrtps_cpp
+[13.890s] [ 85%] Built target servo_service
+[13.918s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.415s] [ 86%] Built target servo_service__py
+[15.441s] [ 88%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_change_servo_positions_s.c.o[0m
+[15.441s] [ 88%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_servo_positions_s.c.o[0m
+[15.441s] [ 88%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_joint_lock_s.c.o[0m
+[15.441s] [ 90%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_face_bounding_box_s.c.o[0m
+[15.441s] [ 90%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_posture_s.c.o[0m
+[15.442s] [ 90%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_get_servo_positions_s.c.o[0m
+[15.442s] [ 91%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_face_bounding_box_array_s.c.o[0m
+[15.442s] [ 92%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_lock_s.c.o[0m
+[15.703s] [ 92%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_temp_s.c.o[0m
+[15.707s] [ 93%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_deviation_s.c.o[0m
+[15.708s] [ 94%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_voltage_s.c.o[0m
+[15.741s] [ 94%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_position_s.c.o[0m
+[15.741s] [ 95%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_range_s.c.o[0m
+[16.009s] [ 96%] [32m[1mLinking C shared library libservo_service__rosidl_generator_py.so[0m
+[16.068s] [ 96%] Built target servo_service__rosidl_generator_py
+[16.090s] [ 97%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c.o[0m
+[16.090s] [ 98%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.091s] [ 98%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.285s] [100%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so[0m
+[16.285s] [100%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_c.so[0m
+[16.292s] [100%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.321s] [100%] Built target servo_service_s__rosidl_typesupport_c
+[16.321s] [100%] Built target servo_service_s__rosidl_typesupport_introspection_c
+[16.330s] [100%] Built target servo_service_s__rosidl_typesupport_fastrtps_c
+[16.343s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service -- -j8 -l8
+[16.345s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
+[16.353s] -- Install configuration: ""
+[16.353s] -- Execute custom install script
+[16.354s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/ament_index/resource_index/rosidl_interfaces/servo_service
+[16.363s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/ChangeServoPositions.json
+[16.372s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetServoPositions.json
+[16.381s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetJointLock.json
+[16.390s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/GetServoPositions.json
+[16.399s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetPosture.json
+[16.408s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBox.json
+[16.417s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.json
+[16.426s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointLock.json
+[16.435s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoTemp.json
+[16.444s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoDeviation.json
+[16.453s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoVoltage.json
+[16.463s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointPosition.json
+[16.472s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointRange.json
+[16.482s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.h
+[16.491s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__functions.h
+[16.500s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.h
+[16.510s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.h
+[16.519s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__functions.h
+[16.528s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__struct.h
+[16.537s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__type_support.h
+[16.546s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__functions.h
+[16.555s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__struct.h
+[16.565s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__type_support.h
+[16.574s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__functions.h
+[16.583s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.h
+[16.592s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.h
+[16.601s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__functions.h
+[16.610s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.h
+[16.619s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.h
+[16.628s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__functions.h
+[16.637s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.h
+[16.646s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.h
+[16.656s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__functions.h
+[16.666s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.h
+[16.675s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.h
+[16.684s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box.h
+[16.693s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box_array.h
+[16.702s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.h
+[16.711s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_c__visibility_control.h
+[16.720s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.h
+[16.730s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_posture.h
+[16.739s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.h
+[16.748s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__functions.h
+[16.757s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.h
+[16.767s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.h
+[16.776s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__functions.h
+[16.785s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.h
+[16.794s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.h
+[16.803s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__functions.h
+[16.812s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.h
+[16.821s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.h
+[16.830s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__functions.h
+[16.839s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.h
+[16.848s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.h
+[16.857s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__functions.h
+[16.867s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.h
+[16.876s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.h
+[16.885s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__functions.h
+[16.894s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.h
+[16.903s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.h
+[16.912s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_lock.h
+[16.921s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_position.h
+[16.930s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_range.h
+[16.939s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.h
+[16.948s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_temp.h
+[16.957s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.h
+[16.967s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/library_path.sh
+[16.976s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/library_path.dsv
+[16.986s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_c.h
+[16.995s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_fastrtps_c.h
+[17.005s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_fastrtps_c.h
+[17.014s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_c.h
+[17.023s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_c.h
+[17.032s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_c.h
+[17.041s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_c.h
+[17.050s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.059s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_c.h
+[17.077s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_c.h
+[17.086s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_c.h
+[17.095s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_c.h
+[17.104s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_c.h
+[17.114s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.hpp
+[17.123s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__builder.hpp
+[17.132s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.hpp
+[17.141s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__traits.hpp
+[17.150s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.hpp
+[17.160s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__builder.hpp
+[17.170s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__struct.hpp
+[17.179s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__traits.hpp
+[17.188s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__type_support.hpp
+[17.197s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__builder.hpp
+[17.206s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__struct.hpp
+[17.215s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__traits.hpp
+[17.224s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__type_support.hpp
+[17.234s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__builder.hpp
+[17.243s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.hpp
+[17.253s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__traits.hpp
+[17.263s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.hpp
+[17.273s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__builder.hpp
+[17.282s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.hpp
+[17.291s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__traits.hpp
+[17.300s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.hpp
+[17.309s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__builder.hpp
+[17.319s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.hpp
+[17.328s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__traits.hpp
+[17.337s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.hpp
+[17.345s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__builder.hpp
+[17.354s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.hpp
+[17.366s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__traits.hpp
+[17.376s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.hpp
+[17.385s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box.hpp
+[17.394s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/face_bounding_box_array.hpp
+[17.403s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.hpp
+[17.412s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.422s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.hpp
+[17.431s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_posture.hpp
+[17.440s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.hpp
+[17.449s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__builder.hpp
+[17.457s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.hpp
+[17.467s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__traits.hpp
+[17.476s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.hpp
+[17.485s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__builder.hpp
+[17.494s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.hpp
+[17.503s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__traits.hpp
+[17.512s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.hpp
+[17.521s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__builder.hpp
+[17.530s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.hpp
+[17.539s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__traits.hpp
+[17.548s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.hpp
+[17.557s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__builder.hpp
+[17.567s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.hpp
+[17.575s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__traits.hpp
+[17.584s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.hpp
+[17.593s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__builder.hpp
+[17.602s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.hpp
+[17.611s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__traits.hpp
+[17.620s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.hpp
+[17.629s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__builder.hpp
+[17.638s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.hpp
+[17.647s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__traits.hpp
+[17.656s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.hpp
+[17.665s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_lock.hpp
+[17.674s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_position.hpp
+[17.683s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/joint_range.hpp
+[17.692s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.hpp
+[17.701s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_temp.hpp
+[17.710s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.hpp
+[17.720s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[17.729s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[17.739s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_fastrtps_cpp.hpp
+[17.747s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[17.756s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[17.766s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_cpp.hpp
+[17.775s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[17.784s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.793s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[17.801s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[17.810s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[17.820s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_cpp.hpp
+[17.828s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_cpp.hpp
+[17.838s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_cpp.hpp
+[17.847s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_c.h
+[17.856s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_introspection_c.h
+[17.865s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_introspection_c.h
+[17.874s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_c.h
+[17.883s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_c.h
+[17.892s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_c.h
+[17.901s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_c.h
+[17.910s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.919s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_c.h
+[17.928s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_c.h
+[17.937s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_c.h
+[17.946s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_c.h
+[17.954s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_c.h
+[17.964s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_c.h
+[17.974s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[17.983s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[17.992s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/face_bounding_box_array__rosidl_typesupport_introspection_cpp.hpp
+[18.001s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[18.010s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[18.019s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_cpp.hpp
+[18.028s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[18.037s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[18.046s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_cpp.hpp
+[18.055s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_cpp.hpp
+[18.065s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_cpp.hpp
+[18.074s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_cpp.hpp
+[18.083s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_cpp.hpp
+[18.092s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/pythonpath.sh
+[18.102s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/pythonpath.dsv
+[18.111s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/PKG-INFO
+[18.120s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.130s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.139s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/top_level.txt
+[18.149s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/__init__.py
+[18.158s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c
+[18.168s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.178s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
+[18.187s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/__init__.py
+[18.196s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions.py
+[18.205s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions_s.c
+[18.214s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box.py
+[18.223s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_array.py
+[18.232s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_array_s.c
+[18.242s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_s.c
+[18.251s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions.py
+[18.260s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions_s.c
+[18.269s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock.py
+[18.279s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock_s.c
+[18.287s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture.py
+[18.296s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture_s.c
+[18.306s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions.py
+[18.315s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions_s.c
+[18.325s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[18.334s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[18.343s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[18.352s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/__init__.py
+[18.361s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock.py
+[18.371s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock_s.c
+[18.380s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position.py
+[18.389s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position_s.c
+[18.399s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range.py
+[18.408s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range_s.c
+[18.417s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation.py
+[18.427s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation_s.c
+[18.436s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp.py
+[18.445s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp_s.c
+[18.454s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage.py
+[18.463s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage_s.c
+[18.473s] -- Up-to-date symlink: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[18.474s] -- Up-to-date symlink: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[18.474s] -- Up-to-date symlink: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[18.474s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/ChangeServoPositions.idl
+[18.484s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetServoPositions.idl
+[18.493s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetJointLock.idl
+[18.503s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/GetServoPositions.idl
+[18.512s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetPosture.idl
+[18.521s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBox.idl
+[18.531s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.idl
+[18.540s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointLock.idl
+[18.549s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoTemp.idl
+[18.558s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoDeviation.idl
+[18.568s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoVoltage.idl
+[18.578s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointPosition.idl
+[18.587s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointRange.idl
+[18.596s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/ChangeServoPositions.msg
+[18.606s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetServoPositions.msg
+[18.615s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetJointLock.msg
+[18.624s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/GetServoPositions.msg
+[18.633s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/SetPosture.msg
+[18.642s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBox.msg
+[18.652s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/msg/FaceBoundingBoxArray.msg
+[18.661s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointLock.srv
+[18.671s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoTemp.srv
+[18.680s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoDeviation.srv
+[18.689s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/ServoVoltage.srv
+[18.698s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointPosition.srv
+[18.707s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/srv/JointRange.srv
+[18.716s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/ament_index/resource_index/package_run_dependencies/servo_service
+[18.726s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/ament_index/resource_index/parent_prefix_path/servo_service
+[18.735s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/ament_prefix_path.sh
+[18.745s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/ament_prefix_path.dsv
+[18.754s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/path.sh
+[18.763s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/environment/path.dsv
+[18.773s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/local_setup.bash
+[18.782s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/local_setup.sh
+[18.791s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/local_setup.zsh
+[18.800s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/local_setup.dsv
+[18.809s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.dsv
+[18.818s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/ament_index/resource_index/packages/servo_service
+[18.827s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/rosidl_cmake-extras.cmake
+[18.836s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.845s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.855s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/ament_cmake_export_libraries-extras.cmake
+[18.864s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/ament_cmake_export_targets-extras.cmake
+[18.874s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.883s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.892s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_serviceConfig.cmake
+[18.901s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_serviceConfig-version.cmake
+[18.910s] -- Symlinking: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.xml
+[18.919s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_generator_c.so
+[18.920s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_generator_c.so" to ""
+[18.920s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_c.so
+[18.921s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_c.so" to ""
+[18.921s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_cpp.so
+[18.923s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.923s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_c.so
+[18.924s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_c.so" to ""
+[18.924s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_c.so
+[18.925s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_c.so" to ""
+[18.925s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_cpp.so
+[18.926s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_cpp.so" to ""
+[18.927s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_cpp.so
+[18.928s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_typesupport_cpp.so" to ""
+[18.995s] Listing '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/__init__.py'...
+[18.995s] Listing '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/__init__.py'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions.py'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box.py'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_face_bounding_box_array.py'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions.py'...
+[18.995s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions.py'...
+[18.996s] Listing '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/__init__.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp.py'...
+[18.996s] Compiling '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage.py'...
+[19.000s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_generator_py.so
+[19.001s] -- Set non-toolchain portion of runtime path of "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/libservo_service__rosidl_generator_py.so" to ""
+[19.002s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport.cmake
+[19.002s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport-noconfig.cmake
+[19.002s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport.cmake
+[19.002s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.003s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cppExport.cmake
+[19.003s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.003s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.003s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport.cmake
+[19.004s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.004s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport.cmake
+[19.004s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport-noconfig.cmake
+[19.004s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport.cmake
+[19.005s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.005s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport.cmake
+[19.005s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport-noconfig.cmake
+[19.005s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport.cmake
+[19.006s] -- Installing: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport-noconfig.cmake
+[19.009s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service

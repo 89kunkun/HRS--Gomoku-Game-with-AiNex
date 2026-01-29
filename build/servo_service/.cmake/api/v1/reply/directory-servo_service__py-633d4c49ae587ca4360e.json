@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "servo_service__py",
+		"source" : "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py"
+	}
+}

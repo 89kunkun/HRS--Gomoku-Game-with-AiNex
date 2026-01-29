@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "servo_service/msg/detail/set_servo_positions__type_support.h"
 #include "servo_service/msg/detail/set_servo_positions__struct.h"
 #include "servo_service/msg/detail/set_servo_positions__functions.h"
+#include "servo_service/msg/detail/set_servo_positions__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 # Utility rule file for servo_service__rosidl_generator_type_description.
 
@@ -95,8 +95,8 @@ rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json: r
 rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json: rosidl_adapter/servo_service/srv/ServoVoltage.idl
 rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json: rosidl_adapter/servo_service/srv/JointPosition.idl
 rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json: rosidl_adapter/servo_service/srv/JointRange.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hrs2025/Workspace/src/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/servo_service/msg/SetServoPositions.json: rosidl_generator_type_description/servo_service/msg/ChangeServoPositions.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/servo_service/msg/SetServoPositions.json
@@ -160,6 +160,6 @@ CMakeFiles/servo_service__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/servo_service__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/servo_service__rosidl_generator_type_description.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles/servo_service__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles/servo_service__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/servo_service__rosidl_generator_type_description.dir/depend
 

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "servo_service/srv/detail/joint_position__struct.h"
-#include "servo_service/srv/detail/joint_position__type_support.h"
 #include "servo_service/srv/detail/joint_position__functions.h"
+#include "servo_service/srv/detail/joint_position__type_support.h"
+#include "servo_service/srv/detail/joint_position__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

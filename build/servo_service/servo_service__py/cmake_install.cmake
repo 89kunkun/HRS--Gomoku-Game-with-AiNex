@@ -1,8 +1,8 @@
-# Install script for directory: /home/hrs2025/Workspace/src/build/servo_service/servo_service__py
+# Install script for directory: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hrs2025/Workspace/src/install/servo_service")
+  set(CMAKE_INSTALL_PREFIX "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

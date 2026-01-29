@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles /home/hrs2025/Workspace/src/build/servo_service/servo_service__py//CMakeFiles/progress.marks
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles 0
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py//CMakeFiles/progress.marks
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/clean
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,31 +158,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/preinstall
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/preinstall
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
-.PHONY : /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule:
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
+.PHONY : /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
 
 # Convenience name for target.
-servo_service__py: /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
+servo_service__py: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/rule
 .PHONY : servo_service__py
 
 # fast build rule for target.
 servo_service__py/fast:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(MAKE) $(MAKESILENT) -f /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(MAKE) $(MAKESILENT) -f /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
 .PHONY : servo_service__py/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

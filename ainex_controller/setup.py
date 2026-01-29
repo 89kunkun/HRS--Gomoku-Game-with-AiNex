@@ -27,7 +27,9 @@ setup(
             'ainex_hands_control_node = ainex_controller.ainex_hands_control_node:main',
             'ainex_twohands_control_node = ainex_controller.ainex_twohands_control_node:main',
             'ainex_arm_controller = ainex_controller.ainex_arm_controller:main',
+            'ainex_arm_controller_topic = ainex_controller.ainex_arm_controller_topic:main',
             'ainex_minimal_fsm = ainex_controller.ainex_minimal_fsm:main',
+            'ainex_mode = ainex_controller.ainex_mode:main',
         ],
     },
 )

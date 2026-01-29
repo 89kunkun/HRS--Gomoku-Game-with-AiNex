@@ -1,1 +1,1 @@
-/home/hrs2025/Workspace/src/servo_service/msg/SetJointLock.msg
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service/msg/SetJointLock.msg

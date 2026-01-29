@@ -1,5 +1,5 @@
 CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.c.o: \
- /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.c \
+ /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,7 +13,7 @@ CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_servic
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__struct.h \
+ /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -26,7 +26,7 @@ CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_servic
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__functions.h \
+ /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__functions.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -71,5 +71,5 @@ CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_servic
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/msg/rosidl_generator_c__visibility_control.h \
- /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.h
+ /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/msg/rosidl_generator_c__visibility_control.h \
+ /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.h

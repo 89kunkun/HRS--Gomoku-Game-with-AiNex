@@ -1,1 +1,1 @@
-/home/hrs2025/Workspace/src/build/servo_service/ament_cmake_environment_hooks/local_setup.sh
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_environment_hooks/local_setup.sh

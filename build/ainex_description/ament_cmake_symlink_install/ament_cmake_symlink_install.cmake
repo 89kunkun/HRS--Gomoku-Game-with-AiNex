@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/ainex_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/ainex_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/hrs2025/Workspace/src/install/ainex_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/hrs2025/Workspace/src/install/ainex_description/${destination}")
+      set(destination "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "urdf" "meshes" "rviz" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_directory("/home/hrs2025/Workspace/src/ainex_description" DIRECTORY "launch" "urdf" "meshes" "rviz" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_directory("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" DIRECTORY "launch" "urdf" "meshes" "rviz" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ainex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ainex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ainex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ainex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ainex_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ainex_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ainex_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ainex_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ainex_description/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ainex_description/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ainex_description/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ainex_description/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ainex_description/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ainex_description/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ainex_description/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ainex_description/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ainex_description/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ainex_description/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ainex_description/environment")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ainex_description/environment")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ainex_description/environment")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ainex_description/environment")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ainex_description")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/packages/ainex_description" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/packages/ainex_description" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/packages/ainex_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_index/share/ament_index/resource_index/packages/ainex_description" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_core/ainex_descriptionConfig.cmake" "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_core/ainex_descriptionConfig-version.cmake" "DESTINATION" "share/ainex_description/cmake")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_core/ainex_descriptionConfig.cmake" "/home/hrs2025/Workspace/src/build/ainex_description/ament_cmake_core/ainex_descriptionConfig-version.cmake" "DESTINATION" "share/ainex_description/cmake")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_core/ainex_descriptionConfig.cmake" "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_core/ainex_descriptionConfig-version.cmake" "DESTINATION" "share/ainex_description/cmake")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_core/ainex_descriptionConfig.cmake" "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description/ament_cmake_core/ainex_descriptionConfig-version.cmake" "DESTINATION" "share/ainex_description/cmake")
 
-# install(FILES "/home/hrs2025/Workspace/src/ainex_description/package.xml" "DESTINATION" "share/ainex_description")
-ament_cmake_symlink_install_files("/home/hrs2025/Workspace/src/ainex_description" FILES "/home/hrs2025/Workspace/src/ainex_description/package.xml" "DESTINATION" "share/ainex_description")
+# install(FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description/package.xml" "DESTINATION" "share/ainex_description")
+ament_cmake_symlink_install_files("/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description" FILES "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description/package.xml" "DESTINATION" "share/ainex_description")

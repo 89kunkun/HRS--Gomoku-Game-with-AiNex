@@ -1,1 +1,1 @@
-/home/hrs2025/Workspace/src/ainex_description/launch/display.launch.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description/launch/display.launch.py

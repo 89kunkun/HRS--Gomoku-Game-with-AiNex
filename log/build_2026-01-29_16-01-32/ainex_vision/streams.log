@@ -1,0 +1,39 @@
+[1.012s] Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/build --no-deps symlink_data
+[1.413s] running develop
+[1.740s] running egg_info
+[1.741s] creating ainex_vision.egg-info
+[1.766s] writing ainex_vision.egg-info/PKG-INFO
+[1.766s] writing dependency_links to ainex_vision.egg-info/dependency_links.txt
+[1.767s] writing entry points to ainex_vision.egg-info/entry_points.txt
+[1.767s] writing requirements to ainex_vision.egg-info/requires.txt
+[1.767s] writing top-level names to ainex_vision.egg-info/top_level.txt
+[1.767s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.819s] reading manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.820s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.858s] running build_ext
+[1.858s] Creating /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages/ainex-vision.egg-link (link to .)
+[1.859s] Installing arrayoutput script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.859s] Installing aruco_board_location script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.859s] Installing aruco_detector script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing board_to_base script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing calibrate_camera script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing calibration script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing camera_sub script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing face_detection_node script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing pieces_detection script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.860s] Installing sym_point script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.861s] Installing tutorial_2 script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.861s] Installing tutorial_3 script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.861s] Installing tutorial_4 script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.861s] Installing undistort_node script to /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/ainex_vision
+[1.861s] 
+[1.861s] Installed /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision
+[1.862s] running symlink_data
+[1.862s] creating /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ament_index
+[1.862s] creating /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ament_index/resource_index
+[1.862s] creating /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ament_index/resource_index/packages
+[1.862s] symbolically linking /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/resource/ainex_vision -> /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ament_index/resource_index/packages
+[1.862s] symbolically linking /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/package.xml -> /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision
+[1.862s] creating /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/config
+[1.862s] symbolically linking /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/ainex_vision/camera.yaml -> /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/config
+[1.904s] Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/build --no-deps symlink_data

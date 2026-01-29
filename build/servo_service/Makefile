@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles /home/hrs2025/Workspace/src/build/servo_service//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ servo_service__py: cmake_check_build_system
 
 # fast build rule for target.
 servo_service__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
 .PHONY : servo_service__py/fast
 
 rosidl_generator_c/servo_service/msg/detail/change_servo_positions__description.o: rosidl_generator_c/servo_service/msg/detail/change_servo_positions__description.c.o

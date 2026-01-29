@@ -1,1 +1,1 @@
-/home/hrs2025/Workspace/src/ainex_vision/setup.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision/setup.py

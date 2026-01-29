@@ -65,6 +65,7 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         # ----------------------------
         self.declare_parameter('image_topic', '/camera/image_undistorted/compressed')
         self.declare_parameter('camera_info_topic', 'camera_info')
+        self.declare_parameter('camera_frame', 'camera_optical_link')
         self.declare_parameter('debug_image_topic', '/aruco_board/debug_image')
 
         self.declare_parameter('piece_pixel_topic', '/green_centers_array')
@@ -90,6 +91,7 @@ class ArucoBoardTfAndPiecePoseNode(Node):
 
         self.image_topic = self.get_parameter('image_topic').value
         self.camera_info_topic = self.get_parameter('camera_info_topic').value
+        self.camera_frame = self.get_parameter('camera_frame').value
         self.debug_image_topic = self.get_parameter('debug_image_topic').value
 
         self.piece_pixel_topic = self.get_parameter('piece_pixel_topic').value
@@ -135,7 +137,8 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         self.bridge = CvBridge()
         self.camera_matrix = None
         self.have_camera_info = False
-        self.camera_frame = None
+        # Fixed parent frame for TF publishing
+        self.camera_frame = self.camera_frame if self.camera_frame else "camera_optical_link"
 
         # 图像已去畸变：统一用 0 畸变
         self.zero_dist = np.zeros((5, 1), dtype=np.float64)
@@ -184,6 +187,7 @@ class ArucoBoardTfAndPiecePoseNode(Node):
             f"  piece_pixel_topic={self.piece_pixel_topic}\n"
             f"  piece_pose_topic={self.piece_pose_topic}\n"
             f"  board_frame={self.board_frame}\n"
+            f"  camera_frame={self.camera_frame}\n"
             f"  corner_ids(LU,RU,RD,LD)={self.corner_ids}\n"
             f"  marker_length={self.marker_length} m, board_length={self.board_length} m\n"
             f"  origin_offset_from_ld=(dx={self.origin_dx} m, dy={self.origin_dy} m)\n"
@@ -254,8 +258,6 @@ class ArucoBoardTfAndPiecePoseNode(Node):
     def on_camera_info(self, msg: CameraInfo):
         self.camera_matrix = np.array(msg.k, dtype=np.float64).reshape(3, 3)
         self.have_camera_info = True
-        self.camera_frame = msg.header.frame_id if msg.header.frame_id else "camera_frame"
-
         # CameraInfo 一般只需要一次
         self.destroy_subscription(self.sub_info)
         self.get_logger().info(f"CameraInfo received. camera_frame='{self.camera_frame}'")
@@ -379,8 +381,9 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         cv2.aruco.drawDetectedMarkers(debug, corners, ids)
         required_ids = set(self.corner_ids)
         detected_ids = set(int(i) for i in ids.flatten())
-        if not required_ids.issubset(detected_ids):
-            cv2.putText(debug, "Aruco incomplete", (10, 25),
+        detected_required = required_ids.intersection(detected_ids)
+        if len(detected_required) < 4:
+            cv2.putText(debug, "Aruco <3 corners", (10, 25),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2, cv2.LINE_AA)
             self._use_last_pose_or_clear(now, msg.header, debug)
             cv2.imshow('aruco_debug', debug)
@@ -474,8 +477,8 @@ class ArucoBoardTfAndPiecePoseNode(Node):
           R_cb = R^T
           t_cb = -R^T t
         """
-        if self.camera_frame is None:
-            self.camera_frame = header.frame_id if header.frame_id else "camera_frame"
+        if not self.camera_frame:
+            self.camera_frame = "camera_optical_link"
 
         R, _ = cv2.Rodrigues(rvec)
         R_cb = R.T

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 # Utility rule file for ament_cmake_python_symlink_servo_service.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_servo_service.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_symlink_servo_service.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_servo_service:
-	/usr/bin/cmake -E create_symlink /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py/servo_service /home/hrs2025/Workspace/src/build/servo_service/ament_cmake_python/servo_service/servo_service
+	/usr/bin/cmake -E create_symlink /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_python/servo_service/servo_service
 
 ament_cmake_python_symlink_servo_service: CMakeFiles/ament_cmake_python_symlink_servo_service
 ament_cmake_python_symlink_servo_service: CMakeFiles/ament_cmake_python_symlink_servo_service.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_servo_service.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_servo_service.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_servo_service.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles/ament_cmake_python_symlink_servo_service.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles/ament_cmake_python_symlink_servo_service.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_symlink_servo_service.dir/depend
 

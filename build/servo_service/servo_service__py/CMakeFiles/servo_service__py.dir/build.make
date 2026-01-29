@@ -53,50 +53,50 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 # Utility rule file for servo_service__py.
 
 # Include any custom commands dependencies for this target.
-include /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/compiler_depend.make
+include /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/progress.make
+include /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/progress.make
 
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_change_servo_positions.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_servo_positions.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_joint_lock.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_get_servo_positions.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_posture.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_array.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_lock.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_deviation.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_position.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_range.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/__init__.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/__init__.py
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_change_servo_positions_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_servo_positions_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_joint_lock_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_get_servo_positions_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_posture_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_array_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_lock_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_deviation_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_position_s.c
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_range_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_change_servo_positions.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_servo_positions.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_joint_lock.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_get_servo_positions.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_posture.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_array.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_lock.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_deviation.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_position.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_range.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/__init__.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/__init__.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_change_servo_positions_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_servo_positions_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_joint_lock_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_get_servo_positions_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_set_posture_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/msg/_face_bounding_box_array_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_lock_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_deviation_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_position_s.c
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py: rosidl_generator_py/servo_service/srv/_joint_range_s.c
 
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -189,8 +189,8 @@ rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hrs2025/Workspace/src/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/hrs2025/Workspace/src/build/servo_service/servo_service__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hrs2025/Workspace/src/build/servo_service/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
@@ -313,19 +313,19 @@ servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp.py
 servo_service__py: rosidl_generator_py/servo_service/srv/_servo_temp_s.c
 servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage.py
 servo_service__py: rosidl_generator_py/servo_service/srv/_servo_voltage_s.c
-servo_service__py: /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py
-servo_service__py: /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make
+servo_service__py: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py
+servo_service__py: /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build.make
 .PHONY : servo_service__py
 
 # Rule to build all files generated by this target.
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build: servo_service__py
-.PHONY : /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build: servo_service__py
+.PHONY : /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/build
 
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/clean:
-	cd /home/hrs2025/Workspace/src/build/servo_service/servo_service__py && $(CMAKE_COMMAND) -P CMakeFiles/servo_service__py.dir/cmake_clean.cmake
-.PHONY : /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/clean
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/clean:
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py && $(CMAKE_COMMAND) -P CMakeFiles/servo_service__py.dir/cmake_clean.cmake
+.PHONY : /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/clean
 
-/home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/build/servo_service/servo_service__py /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service/servo_service__py /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/hrs2025/Workspace/src/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/depend
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/depend:
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py/CMakeFiles/servo_service__py.dir/depend
 

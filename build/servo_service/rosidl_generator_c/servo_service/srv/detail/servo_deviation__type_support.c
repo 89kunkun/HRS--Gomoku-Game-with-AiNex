@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "servo_service/srv/detail/servo_deviation__type_support.h"
 #include "servo_service/srv/detail/servo_deviation__struct.h"
+#include "servo_service/srv/detail/servo_deviation__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "servo_service/srv/detail/servo_deviation__functions.h"
 

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "servo_service/msg/detail/face_bounding_box_array__struct.h"
 #include "servo_service/msg/detail/face_bounding_box_array__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "servo_service/msg/detail/face_bounding_box_array__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "servo_service/msg/detail/face_bounding_box_array__struct.h"
 
 #ifdef __cplusplus
 extern "C"

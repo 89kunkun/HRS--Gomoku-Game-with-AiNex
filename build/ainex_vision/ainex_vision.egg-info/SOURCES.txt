@@ -2,12 +2,17 @@ package.xml
 setup.cfg
 setup.py
 ainex_vision/__init__.py
+ainex_vision/arrayoutput.py
 ainex_vision/arucoPC.py
+ainex_vision/aruco_board_location.py
 ainex_vision/aruco_detector.py
+ainex_vision/board_to_base.py
 ainex_vision/calibrate_camera.py
 ainex_vision/camera.yaml
 ainex_vision/camera_sub.py
 ainex_vision/face_detection_node.py
+ainex_vision/pieces_detection.py
+ainex_vision/sym_point.py
 ainex_vision/tutorial_2.py
 ainex_vision/tutorial_3.py
 ainex_vision/tutorial_4.py

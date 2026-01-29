@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/hrs2025/Workspace/src/ainex_description/CMakeLists.txt"
-  "/home/hrs2025/Workspace/src/ainex_description/package.xml"
+  "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description/CMakeLists.txt"
+  "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description/package.xml"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"

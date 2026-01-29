@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hrs2025/Workspace/src/servo_service
+CMAKE_SOURCE_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hrs2025/Workspace/src/build/servo_service
+CMAKE_BINARY_DIR = /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
 
 # Utility rule file for servo_service_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/servo_service_uninstall.dir/compiler_depend.make
 include CMakeFiles/servo_service_uninstall.dir/progress.make
 
 CMakeFiles/servo_service_uninstall:
-	/usr/bin/cmake -P /home/hrs2025/Workspace/src/build/servo_service/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 servo_service_uninstall: CMakeFiles/servo_service_uninstall
 servo_service_uninstall: CMakeFiles/servo_service_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/servo_service_uninstall.dir/clean:
 .PHONY : CMakeFiles/servo_service_uninstall.dir/clean
 
 CMakeFiles/servo_service_uninstall.dir/depend:
-	cd /home/hrs2025/Workspace/src/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service /home/hrs2025/Workspace/src/build/servo_service/CMakeFiles/servo_service_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/CMakeFiles/servo_service_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/servo_service_uninstall.dir/depend
 

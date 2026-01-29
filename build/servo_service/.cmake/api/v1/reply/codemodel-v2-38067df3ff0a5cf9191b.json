@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cdddeca763a18101b160.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "servo_service__py",
+					"jsonFile" : "directory-servo_service__py-633d4c49ae587ca4360e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service/servo_service__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "servo_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_servo_service_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_servo_service_egg-a514b36f5e7767541031.json",
+					"name" : "ament_cmake_python_build_servo_service_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_servo_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_servo_service-646080e9d9ef56bc5b8e.json",
+					"name" : "ament_cmake_python_symlink_servo_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service-afdd65b8563cb4e917e5.json",
+					"name" : "servo_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__cpp-a67ff145c9495f62a7f2.json",
+					"name" : "servo_service__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "servo_service__py::@d8c6dacf31978cc7c9e2",
+					"jsonFile" : "target-servo_service__py-f75d709573fe0c874eb9.json",
+					"name" : "servo_service__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_c-2b835840f2f83126dc34.json",
+					"name" : "servo_service__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_py-c48b083f9a1dab95bc2f.json",
+					"name" : "servo_service__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_generator_type_description-b6659b310c368adb802f.json",
+					"name" : "servo_service__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_c-64de707aa3459bf8d1cf.json",
+					"name" : "servo_service__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_cpp-8cd20bce5675b4dc3bd6.json",
+					"name" : "servo_service__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_fastrtps_c-eedd121609543a4ec642.json",
+					"name" : "servo_service__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_fastrtps_cpp-2221ab3db7806fb67218.json",
+					"name" : "servo_service__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_introspection_c-d9ff8d248bd121426a50.json",
+					"name" : "servo_service__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service__rosidl_typesupport_introspection_cpp-14b29a7999ef6a7f5383.json",
+					"name" : "servo_service__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_c-c674c5b690a80ac62418.json",
+					"name" : "servo_service_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_fastrtps_c-8793a312ffeae7a61a3e.json",
+					"name" : "servo_service_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_s__rosidl_typesupport_introspection_c-41bd5c02010d5177da07.json",
+					"name" : "servo_service_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_service_uninstall-f39fa7c9bf3794eed9aa.json",
+					"name" : "servo_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7b5aaecf5cd7b79f029.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service",
+		"source" : "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

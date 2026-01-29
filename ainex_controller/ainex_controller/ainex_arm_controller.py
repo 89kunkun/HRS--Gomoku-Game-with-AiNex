@@ -48,15 +48,15 @@ class MarkerFollower(Node):
         # --------------------
         # Parameters
         # --------------------
-        self.dt = 0.05
+        self.dt = 0.03
         self.spline_duration = 2.0
         self.home_duration = 4.0
         self.reached_tol = 0.002
         self.max_joint_vel = self.declare_parameter(
-            "max_joint_vel", 1.0
+            "max_joint_vel", 0.8
         ).value
         self.hold_duration = self.declare_parameter(
-            "hold_duration", 1.0
+            "hold_duration", 2.0
         ).value
         self.marker_change_thresh = self.declare_parameter(
             "marker_change_thresh", 0.01
@@ -64,6 +64,13 @@ class MarkerFollower(Node):
         self.marker_change_hold = self.declare_parameter(
             "marker_change_hold", 0.5
         ).value
+        self.pre_to_final_wait = self.declare_parameter(
+            "pre_to_final_wait", 0.5
+        ).value
+
+        # pre_point offset along the x
+        self.pre_dx = self.declare_parameter("pre_dx", 0.03).value  # meter
+        self.pre_reached_tol = self.declare_parameter("pre_reached_tol", 0.004).value 
 
         self.use_fixed_marker = self.declare_parameter(
             "use_fixed_marker", True
@@ -82,7 +89,7 @@ class MarkerFollower(Node):
         self.fixed_marker_pose = np.array(
             self.declare_parameter(
                 "fixed_marker_pose",
-                ([0.19, 0.1, 0.15])
+                ([0.20, 0.1, 0.15])
             ).value,
             dtype=float
         )
@@ -104,6 +111,12 @@ class MarkerFollower(Node):
         self.marker_seq = 0
         self.marker_update_start_time = None
 
+        # pre-arm track phse (0: go pre, 1: go final)
+        self.track_phase = {'left': 0, 'right': 0}
+        self.track_done = {'left': False, 'right': False}
+        self.pre_waiting = {'left': False, 'right': False}
+        self.pre_wait_start = {'left': None, 'right': None}
+
         # --------------------
         # Load robot
         # --------------------
@@ -111,7 +124,9 @@ class MarkerFollower(Node):
         urdf_path = pkg + "/urdf/ainex.urdf"
 
         self.robot_model = AiNexModel(self, urdf_path)
+        # =======================================================
         self.sim_mode = self.declare_parameter("sim", True).value
+        # =======================================================
         self.robot = AinexRobot(self, self.robot_model, self.dt, sim=self.sim_mode)
 
         # --------------------
@@ -120,7 +135,6 @@ class MarkerFollower(Node):
         self.q_home = np.zeros(self.robot_model.model.nq)
         for j, v in CROUCH_POSTURE.items():
             self.q_home[self.robot_model.get_joint_id(j)] = v
-
         self.robot.move_to_initial_position(self.q_home)
 
         # --------------------
@@ -141,7 +155,6 @@ class MarkerFollower(Node):
             'left': ArmState.TRACK,
             'right': ArmState.TRACK
         }
-
         self.prev_marker_pose = None
 
         # --------------------
@@ -149,7 +162,7 @@ class MarkerFollower(Node):
         # --------------------
         self.create_subscription(
             PoseStamped,
-            "/aruco_marker_base_link",
+            "/piece_point_base_from_ij",
             self.marker_callback,
             10
         )
@@ -171,19 +184,16 @@ class MarkerFollower(Node):
 
     def _sample_new_marker(self):
         """Sample a new marker pose after HOME."""
-        x = 0.19
-
+        x = 0.2
         # y ∈ [-0.10, 0.10] step 0.01
         y_idx = np.random.randint(-10, 11)   # [-10, 10]
         y = 0.01 * y_idx
-
         # z ∈ [0.01, 0.18] step 0.01
         z_idx = np.random.randint(1, 19)     # [1, 18]
         z = 0.01 * z_idx
 
         self.current_marker_pose = np.array([x, y, z], dtype=float)
         self.marker_pose = self.current_marker_pose.copy()
-
         self.get_logger().info(
             f"New marker sampled: x={x:.2f}, y={y:.3f}, z={z:.3f}"
         )
@@ -195,7 +205,6 @@ class MarkerFollower(Node):
     def _update_active_arm(self):
         if self.marker_pose is None:
             return
-    
         y = float(self.marker_pose[1])
 
         # first select
@@ -207,7 +216,6 @@ class MarkerFollower(Node):
         # hysteresis
         if self.active_arm == "left" and y < -self.swith_hysteresis:
             self._switch_active_arm("right")
-
         elif self.active_arm == "right" and y > self.swith_hysteresis:
             self._switch_active_arm("left")
 
@@ -220,11 +228,17 @@ class MarkerFollower(Node):
         self.arm_state[old_arm] = ArmState.HOME
         self.hold_reason[old_arm] = None
         self.hold_enter_time[old_arm] = None
+        self.pre_waiting[old_arm] = False
+        self.pre_wait_start[old_arm] = None
+        
+        # reset phase for new active arm
+        self.track_phase[new_arm] = 0
+        self.pre_waiting[new_arm] = False
+        self.pre_wait_start[new_arm] = None
 
         # new arm go to TRACK
         self.arm_state[new_arm] = ArmState.TRACK
         self._enter_track_to_marker(new_arm)
-
         self.get_logger().info(f"Switch arm: {old_arm} -> {new_arm}")
 
     # ============================================================
@@ -239,10 +253,24 @@ class MarkerFollower(Node):
         )
         return np.linalg.norm(ee - self.marker_pose) < self.reached_tol
     
+    def _compute_pre_marker(self) -> np.ndarray:
+        m = self.marker_pose.copy()
+        m[0] = m[0] - float(self.pre_dx)    # move backward along +x axis direction
+        return m
+    
+    # MODIFIED: enter track uses phase to choose traget
     def _enter_track_to_marker(self, side: str):
+        if self.marker_pose is None:
+            return
+        
+        if self.track_phase[side] == 0:
+            tgt_xyz = self._compute_pre_marker()
+        else:
+            tgt_xyz = self.marker_pose.copy()
+        
         # reset marker for track
         target = pin.SE3.Identity()
-        target.translation = self.marker_pose.copy()
+        target.translation = tgt_xyz
         controller = self.left_hand if side == "left" else self.right_hand
         controller.set_target_pose(target, duration=self.spline_duration, type='abs')
 
@@ -253,7 +281,6 @@ class MarkerFollower(Node):
 
     def step_joint_home(self, side: str):
         arm_ids = self.robot_model.get_arm_ids(side)
-
         q = self.robot.q.copy()
         q_target = q.copy()
         q_home_arm = self.arm_home_joints[side]
@@ -262,14 +289,10 @@ class MarkerFollower(Node):
         for i, jid in enumerate(arm_ids):
             dq = q_home_arm[i] - q[jid]
             max_step = self.max_joint_vel * self.dt
-
             if abs(dq) > max_step:
                 dq = np.sign(dq) * max_step
-
             q_target[jid] = q[jid] + dq
 
-        # if hasattr(self.robot, "send_cmd"):
-        #     self.robot.send_cmd(q_target, self.dt)
         if not self.robot.sim:
             self.robot.send_cmd(q_target, self.dt)
 
@@ -282,11 +305,8 @@ class MarkerFollower(Node):
         q_target = self.robot.q.copy()
         q_target[arm_ids] = self.arm_home_joints[side]
 
-        # if hasattr(self.robot, "send_cmd"):
-        #     self.robot.send_cmd(q_target, self.home_duration)
         if not self.robot.sim:
             self.robot.send_cmd(q_target, self.home_duration)
-
 
         self.robot.q = q_target
         self.robot_model.update_model(self.robot.q, self.robot.v)
@@ -294,6 +314,8 @@ class MarkerFollower(Node):
     def _enter_home(self, side: str):
         self._stop_controller(side)
         self.arm_state[side] = ArmState.HOME
+        self.pre_waiting[side] = False
+        self.pre_wait_start[side] = None
 
     def _singularity_abort(self, side: str) -> bool:
         Controller = self.left_hand if side == "left" else self.right_hand
@@ -313,6 +335,7 @@ class MarkerFollower(Node):
         if self._singularity_abort(side) and state != ArmState.HOME:
             self.get_logger().warn(f"{side} singularity -> FORCE HOME")
             self._enter_home(side)
+            self.track_phase[side] = 0
             controller.in_singularity = False
             self.hold_reason[side] = None
             self.hold_enter_time[side] = None
@@ -322,6 +345,16 @@ class MarkerFollower(Node):
         # TRACK
         # =====================================================
         if state == ArmState.TRACK:
+            if self.pre_waiting[side]:
+                if (now - self.pre_wait_start[side]) >= self.pre_to_final_wait:
+                    self.pre_waiting[side] = False
+                    self.pre_wait_start[side] = None
+                    self._enter_track_to_marker(side)
+                    self.get_logger().info(
+                        f"{side} PRE wait done -> continue to FINAL"
+                    )
+                return None
+
             if side != self.active_arm:
                 # Avoid non-active arm staying in TRACK forever.
                 self._stop_controller(side)
@@ -329,13 +362,33 @@ class MarkerFollower(Node):
                 self.hold_reason[side] = "after_track"
                 self.hold_enter_time[side] = now
                 return None
-        
-            if controller.motion_complete(self.reached_tol):
+            
+            # MODIFIED: two-stage TRACK logic
+            tol = self.pre_reached_tol if self.track_phase[side] == 0 else self.reached_tol
+            if controller.motion_complete(tol):
                 self._stop_controller(side)
+
+                if self.track_phase[side] == 0:
+                    # phase0 finished -> go phase1 (final marker)
+                    self.track_phase[side] = 1
+                    self.pre_waiting[side] = True
+                    self.pre_wait_start[side] = now
+                    self.get_logger().info(
+                        f"{side} reached PRE -> wait {self.pre_to_final_wait:.2f}s"
+                    )
+                    return None
+                else:
+                    # phase1 finished -> mark done
+                    self.track_done[side] = True
+                    return None
+            
+            if self.track_done[side]:
+                self.track_done[side] = False
+                self.track_phase[side] = 0
                 self.arm_state[side] = ArmState.HOLD
                 self.hold_reason[side] = "after_track"
                 self.hold_enter_time[side] = now
-                self.get_logger().info(f"{side} TRACK -> HOLD")
+                self.get_logger().info(f"{side} TRACK(final) -> HOLD")
                 return None
             
             return controller.update(self.dt)
@@ -362,12 +415,14 @@ class MarkerFollower(Node):
                         self.home_exit_marker[side] = None
                         self.hold_reason[side] = None
                         self.arm_state[side] = ArmState.TRACK
+
+                        # start from phase0 again
+                        self.track_phase[side] = 0
                         self._enter_track_to_marker(side)
                         self.get_logger().info(f"{side} HOLD(after_home) -> TRACK")
                     else:
                         # Not active: wait for the next marker update.
                         self.home_exit_marker_seq[side] = self.marker_seq
-
                 return None
             
             return None
@@ -388,7 +443,6 @@ class MarkerFollower(Node):
                     # sample a new marker only when active arm finishes HOME
                     if self.use_fixed_marker:
                         self._sample_new_marker()
-
                     self.active_arm = None
                     self._update_active_arm()
 
@@ -399,12 +453,14 @@ class MarkerFollower(Node):
                 )
                 self.home_exit_marker_seq[side] = self.marker_seq
                 self.marker_change_time[side] = None
+
+                # reset phase when ariving home
+                self.track_phase[side] = 0
+
                 self.get_logger().info(
                     f"{side} HOME done -> HOLD(after_home), "
                     f"new active_arm = {self.active_arm}"
                 )
-
-        
             return None
 
     # ============================================================
@@ -414,17 +470,18 @@ class MarkerFollower(Node):
         # Marker source
         if self.use_fixed_marker:
             self.marker_pose = self.current_marker_pose.copy()
-
         if self.marker_pose is None:
             return
         
         self._update_active_arm()
-
         self.robot_model.update_model(self.robot.q, self.robot.v)
 
         # Track marker changes
         if self.prev_marker_pose is None:
             self.prev_marker_pose = self.marker_pose.copy()
+            # Initial replan (both arm)
+            self.track_phase['left'] = 0
+            self.track_phase['right'] = 0
             # One-time replan when marker appears
             self._enter_track_to_marker("left")
             self._enter_track_to_marker("right")
@@ -450,7 +507,6 @@ class MarkerFollower(Node):
 
         if v_l is None and v_r is None:
             return
-
         if v_l is None:
             v_l = np.zeros(len(self.robot_model.get_arm_ids("left")))
         if v_r is None:

@@ -37,6 +37,9 @@ setup(
           'aruco_board_location = ainex_vision.aruco_board_location:main',
           'pieces_detection = ainex_vision.pieces_detection:main',
           'arrayoutput = ainex_vision.arrayoutput:main',
+          'board_to_base = ainex_vision.board_to_base:main',
+          'sym_point = ainex_vision.sym_point:main',
+
         ],
     },
 )

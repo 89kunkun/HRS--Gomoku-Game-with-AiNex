@@ -1,1 +1,1 @@
-/home/hrs2025/Workspace/src/ainex_social_robot/launch/social_pipeline.launch.py
+/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_social_robot/launch/social_pipeline.launch.py
