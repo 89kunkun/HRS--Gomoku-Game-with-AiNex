@@ -25,7 +25,7 @@ def clamp_rc(r: int, c: int) -> Optional[Tuple[int, int]]:
 class GomokuVisualizerNode(Node):
     """
     Subscribe / 订阅:
-      /gomoku/move           Int16MultiArray  [row, col, player]  player: 1 black, 2 white  （接收走子：[行,列,执子方]）
+      /gomoku/move           Int16MultiArray  [x, y, player]  player: 1 black, 2 white  （接收走子：[列x, 行y, 执子方]，坐标原点在左下角，y 向上，x 向右）
       /gomoku/current_player String          "black" / "white"    （当前轮到的棋手）
       /gomoku/warning        String                                （提示信息）
       /gomoku/reset          Empty                                 （棋盘重置信号）
@@ -86,14 +86,16 @@ class GomokuVisualizerNode(Node):
         data = list(msg.data)
         if len(data) < 3:
             with self._lock:
-                self._warning = "move msg invalid: need [row,col,player]"
+                self._warning = "move msg invalid: need [x,y,player]"
             return
 
-        r, c, player = int(data[0]), int(data[1]), int(data[2])
+        x, y, player = int(data[0]), int(data[1]), int(data[2])
+        # 输入为 (x, y)：x 向右，y 向上；内部行列为 (row=y, col=x)
+        r, c = y, x
         rc = clamp_rc(r, c)
         if rc is None:
             with self._lock:
-                self._warning = f"move out of range: ({r},{c})"
+                self._warning = f"move out of range: ({x},{y})"
             return
 
         if player not in (1, 2):
@@ -103,7 +105,7 @@ class GomokuVisualizerNode(Node):
 
         with self._lock:
             if int(self._board[r, c]) != 0:
-                self._warning = f"cell occupied: ({r},{c})"
+                self._warning = f"cell occupied: ({x},{y})"
                 return
 
             # update board

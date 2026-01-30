@@ -62,8 +62,13 @@ class GomokuRenderer:
 
     # ---------- coordinate helpers ----------
     def rc_to_xy(self, row: int, col: int) -> Tuple[int, int]:
+        """
+        Convert board row/col (origin at bottom-left, row=0 is bottom) to screen x,y.
+        y 轴向上增加，x 轴向右增加。
+        """
         x = self.margin + col * self.cell
-        y = self.margin + row * self.cell
+        # flip row so屏幕原点仍在左上，视觉上 (0,0) 在左下角
+        y = self.margin + (self.n - 1 - row) * self.cell
         return x, y
 
     # ---------- draw primitives ----------
@@ -127,7 +132,8 @@ class GomokuRenderer:
             # text
             p = "Black" if item.player == "black" else "White"
             color = (0, 0, 0) if item.player == "black" else THEME["muted_text"]
-            text = f"{base_idx + i + 1:>3}. {p:<5} ({item.row:>2},{item.col:>2})"
+            # 显示为 (x,y)，其中 x=col(水平), y=row(垂直)
+            text = f"{base_idx + i + 1:>3}. {p:<5} ({item.col:>2},{item.row:>2})"
             self._draw_text(text, (panel_x + 16, y), color, self.font)
             y += line_h
 
@@ -141,7 +147,11 @@ class GomokuRenderer:
         self._draw_text(f"Turn: {p}", (18, bar_y + 12), THEME["text"], self.font_title)
 
         # last move 
-        lm = f"{state.last_move}" if state.last_move else "None"
+        if state.last_move:
+            r, c = state.last_move
+            lm = f"(x={c}, y={r})"
+        else:
+            lm = "None"
         #dm = f"{state.detected_move}" if state.detected_move else "None"
         self._draw_text(f"Last move: {lm}", (18, bar_y + 40), THEME["text"], self.font_small)
         #self._draw_text(f"Detected: {dm}", (260, bar_y + 40), THEME["text"], self.font_small)
