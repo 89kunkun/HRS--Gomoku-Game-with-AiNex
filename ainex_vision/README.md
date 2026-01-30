@@ -1,3 +1,7 @@
+windows0
++9:
+ros2 launch ainex_description display.launch.py gui:=false
+
 windows1:
 ros2 run ainex_vision undistort_node
 
@@ -15,7 +19,6 @@ ros2 topic echo /piece_point_base_from_ij
 
 (/piece_point_base_from_ij is the topic that need to be subscribed)
 
-windows6:
-ros2 launch ainex_description display.launch.py gui:=false
+
 
 change the code in line 47 48 of sym_point.py so that you can change the initial point.

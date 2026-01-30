@@ -23,6 +23,7 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/jazzy\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision/ainex_vision/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/hrs2025/Workspace/src/ainex_controller/install\local_setup.ps1"
 
 # source this prefix

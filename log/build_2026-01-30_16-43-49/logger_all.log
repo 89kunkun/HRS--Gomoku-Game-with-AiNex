@@ -1,0 +1,423 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd2b45a6b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd2b45a5e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd2b45a5e80>>, mixin_verb=('build',))
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_controller) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_controller' with type 'ros.ament_python' and name 'ainex_controller'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_description) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_description' with type 'ros.ament_cmake' and name 'ainex_description'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_motion' with type 'ros.ament_python' and name 'ainex_motion'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_social_robot) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_social_robot' with type 'ros.ament_python' and name 'ainex_social_robot'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_vision' with type 'ros.ament_python' and name 'ainex_vision'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'servo_service' with type 'ros.ament_cmake' and name 'servo_service'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/hrs2025/Workspace/src/ainex_controller/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision/ainex_vision/install
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 303 installed packages in /opt/ros/jazzy
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description', 'symlink_install': True, 'test_result_base': None}
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'servo_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_motion', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_social_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_social_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_social_robot', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ainex_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller', 'merge_install': False, 'path': '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_controller', 'symlink_install': True, 'test_result_base': None}
+[0.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/servo_service'
+[0.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision' with build type 'ament_python'
+[0.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'ament_prefix_path')
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.ps1'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.dsv'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.sh'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_description'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service -- -j8 -l8
+[0.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description -- -j8 -l8
+[0.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description -- -j8 -l8
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description
+[0.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_description)
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_description
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description' for CMake module files
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description' for CMake config files
+[0.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_description', 'cmake_prefix_path')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.sh'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/bin'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/lib/pkgconfig/ainex_description.pc'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/lib/python3.12/site-packages'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/bin'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.bash'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.zsh'
+[0.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/colcon-core/packages/ainex_description)
+[0.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_description)
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description' for CMake module files
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description' for CMake config files
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_description', 'cmake_prefix_path')
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/hook/cmake_prefix_path.sh'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/bin'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/lib/pkgconfig/ainex_description.pc'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/lib/python3.12/site-packages'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/bin'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.bash'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/ainex_description/package.zsh'
+[0.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description/share/colcon-core/packages/ainex_description)
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service -- -j8 -l8
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
+[0.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service' for CMake module files
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/servo_service
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib'
+[0.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/bin'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages'
+[0.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/bin'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.bash'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/colcon-core/packages/servo_service)
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service' for CMake module files
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service' for CMake config files
+[0.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib'
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/bin'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages'
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/bin'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.sh'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.bash'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/servo_service/package.zsh'
+[0.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/share/colcon-core/packages/servo_service)
+[0.974s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_motion' with build type 'ament_python'
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'ament_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.sh'
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.326s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_motion'
+[1.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/build --no-deps symlink_data
+[2.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/build --no-deps symlink_data
+[2.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'pythonpath_develop')
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.ps1'
+[2.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/build --no-deps symlink_data
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.dsv'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision/share/ainex_vision/hook/pythonpath_develop.sh'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision' for CMake config files
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/bin'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/pkgconfig/ainex_vision.pc'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages'
+[2.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'pythonpath')
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/pythonpath.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/pythonpath.dsv'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/hook/pythonpath.sh'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/bin'
+[2.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_vision)
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/package.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/package.dsv'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/package.sh'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/package.bash'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/ainex_vision/package.zsh'
+[2.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/share/colcon-core/packages/ainex_vision)
+[3.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'pythonpath_develop')
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.ps1'
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/build --no-deps symlink_data
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.dsv'
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion/share/ainex_motion/hook/pythonpath_develop.sh'
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion' for CMake module files
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion' for CMake config files
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/bin'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/pkgconfig/ainex_motion.pc'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages'
+[3.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'pythonpath')
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/pythonpath.ps1'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/pythonpath.dsv'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/hook/pythonpath.sh'
+[3.137s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/bin'
+[3.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_motion)
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/package.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/package.dsv'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/package.sh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/package.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/ainex_motion/package.zsh'
+[3.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/share/colcon-core/packages/ainex_motion)
+[3.140s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_social_robot' with build type 'ament_python'
+[3.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'ament_prefix_path')
+[3.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.ps1'
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.dsv'
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/ament_prefix_path.sh'
+[3.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.385s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_social_robot'
+[3.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot': AMENT_PREFIX_PATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/build --no-deps symlink_data
+[4.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'pythonpath_develop')
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.ps1'
+[4.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot' returned '0': AMENT_PREFIX_PATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/build --no-deps symlink_data
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot/share/ainex_social_robot/hook/pythonpath_develop.sh'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot' for CMake module files
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot' for CMake config files
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/bin'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/pkgconfig/ainex_social_robot.pc'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages'
+[4.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_social_robot', 'pythonpath')
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.dsv'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/hook/pythonpath.sh'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/bin'
+[4.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_social_robot)
+[4.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/package.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/package.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/package.sh'
+[4.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/package.bash'
+[4.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/ainex_social_robot/package.zsh'
+[4.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/share/colcon-core/packages/ainex_social_robot)
+[4.821s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_controller' with build type 'ament_python'
+[4.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'ament_prefix_path')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.dsv'
+[4.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/ament_prefix_path.sh'
+[4.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.075s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_controller'
+[5.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller': AMENT_PREFIX_PATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/build --no-deps symlink_data
+[6.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'pythonpath_develop')
+[6.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.ps1'
+[6.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller' returned '0': AMENT_PREFIX_PATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_description:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_social_robot:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_social_robot/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_motion:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_motion/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/servo_service/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_vision:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_vision/lib/python3.12/site-packages:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller:/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages:/home/hrs2025/Workspace/src/ainex_controller/build/ainex_controller:/home/hrs2025/Workspace/src/ainex_controller/install/ainex_controller/lib/python3.12/site-packages:/opt/openrobots/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/hrs2025/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/build --no-deps symlink_data
+[6.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.dsv'
+[6.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/build/ainex_controller/share/ainex_controller/hook/pythonpath_develop.sh'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller' for CMake module files
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller' for CMake config files
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib'
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/bin'
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/pkgconfig/ainex_controller.pc'
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/lib/python3.12/site-packages'
+[6.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_controller', 'pythonpath')
+[6.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/pythonpath.ps1'
+[6.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/pythonpath.dsv'
+[6.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/hook/pythonpath.sh'
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/bin'
+[6.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_controller)
+[6.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/package.ps1'
+[6.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/package.dsv'
+[6.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/package.sh'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/package.bash'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/ainex_controller/package.zsh'
+[6.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/ainex_controller/share/colcon-core/packages/ainex_controller)
+[6.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.511s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.535s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/local_setup.ps1'
+[6.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/_local_setup_util_ps1.py'
+[6.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/setup.ps1'
+[6.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/local_setup.sh'
+[6.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/_local_setup_util_sh.py'
+[6.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/setup.sh'
+[6.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/local_setup.bash'
+[6.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/setup.bash'
+[6.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/local_setup.zsh'
+[6.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/install/setup.zsh'

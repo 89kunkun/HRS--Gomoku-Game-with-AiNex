@@ -24,4 +24,5 @@ ainex_vision.egg-info/entry_points.txt
 ainex_vision.egg-info/requires.txt
 ainex_vision.egg-info/top_level.txt
 ainex_vision.egg-info/zip-safe
+launch/hrs.launch.py
 resource/ainex_vision

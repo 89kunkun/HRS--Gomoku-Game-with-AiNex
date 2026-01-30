@@ -178,6 +178,9 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         )
         self.sub_img = self.create_subscription(CompressedImage, self.image_topic, self.on_image, 10)
         self.sub_piece = self.create_subscription(PoseArray, self.piece_pixel_topic, self.on_piece_pixel, 10)
+        # Process at fixed rate (10 Hz) using latest frame
+        self.latest_img_msg = None
+        self.timer = self.create_timer(0.1, self.on_timer)
 
         self.get_logger().info(
             f"Started.\n"
@@ -269,23 +272,6 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         ]
         self.last_piece_stamp = msg.header.stamp
 
-        # 如果已经有棋盘姿态，就立即算一次并发布
-        if self.last_rvec is not None and self.last_tvec is not None and self.have_camera_info:
-            for u, v in self.piece_uv_buffer:
-                pose = self._pixel_to_board_pose(
-                    (u, v),
-                    self.last_rvec,
-                    self.last_tvec,
-                    stamp=msg.header.stamp,
-                )
-                if pose is not None:
-                    self.pub_piece_pose.publish(pose)
-
-                    ij = self._nearest_grid_index(pose.pose.position.x, pose.pose.position.y)
-                    if ij is not None:
-                        i, j = ij
-                        self._publish_piece_grid(i, j, msg.header.stamp, self.board_frame)
-
 
     def _use_last_pose_or_clear(self, now, header, debug):
         if self.last_valid_time is not None and self.last_rvec is not None and self.last_tvec is not None:
@@ -344,7 +330,15 @@ class ArucoBoardTfAndPiecePoseNode(Node):
         return False
 
     def on_image(self, msg: CompressedImage):
-        self.get_logger().info("on_image called")
+        # Cache latest frame; processing happens in timer callback
+        self.latest_img_msg = msg
+
+    def on_timer(self):
+        msg = self.latest_img_msg
+        if msg is None:
+            return
+        # consume the latest message so we don't reprocess the same frame
+        self.latest_img_msg = None
         try:
             np_arr = np.frombuffer(msg.data,np.uint8)
             frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)

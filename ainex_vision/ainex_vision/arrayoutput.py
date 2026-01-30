@@ -6,8 +6,9 @@ from rclpy.node import Node
 from rclpy.time import Time
 
 from geometry_msgs.msg import PointStamped
-from std_msgs.msg import Int32MultiArray
+from std_msgs.msg import Int16MultiArray, MultiArrayDimension
 
+cavpath='/home/hrs2025/git_website/HRS--Gomoku-Game-with-AiNex/ainex_vision/ainex_vision/piece_grid.csv'
 
 class PieceArrayOutput(Node):
     def __init__(self):
@@ -18,7 +19,7 @@ class PieceArrayOutput(Node):
         self.declare_parameter('min_hits_per_sec', 10)
         self.declare_parameter('min_duration_sec', 10.0)
         self.declare_parameter('array_topic', '/piece_grid_array')
-        self.declare_parameter('output_file', '/home/hrs2025/Workspace/piece_grid.csv')
+        self.declare_parameter('output_file', cavpath)
         self.declare_parameter('write_header', True)
 
         self.piece_grid_topic = self.get_parameter('piece_grid_topic').value
@@ -32,7 +33,7 @@ class PieceArrayOutput(Node):
         self.sub = self.create_subscription(
             PointStamped, self.piece_grid_topic, self.on_piece_grid, 10
         )
-        self.pub_array = self.create_publisher(Int32MultiArray, self.array_topic, 10)
+        self.pub_array = self.create_publisher(Int16MultiArray, self.array_topic, 10)
 
         self.tracks = {}
         self.stable_indices = []
@@ -49,6 +50,10 @@ class PieceArrayOutput(Node):
         now = Time.from_msg(msg.header.stamp) if msg.header.stamp.sec != 0 else self.get_clock().now()
         i = int(round(msg.point.x))
         j = int(round(msg.point.y))
+        if i < 0 or j < 0:
+            return
+        if i > 16 or j > 16:
+            return
         ij = (i, j)
 
         track = self.tracks.get(ij)
@@ -105,11 +110,23 @@ class PieceArrayOutput(Node):
     def _publish_array(self):
         if not self.stable_indices:
             return
-        msg = Int32MultiArray()
-        flat = []
+        msg = Int16MultiArray()
+        msg.layout.dim = [
+            MultiArrayDimension(
+                label='pieces',
+                size=len(self.stable_indices),
+                stride=len(self.stable_indices) * 3,
+            ),
+            MultiArrayDimension(
+                label='attrs',
+                size=3,
+                stride=3,
+            ),
+        ]
+        data = []
         for i, j in self.stable_indices:
-            flat.extend([int(i), int(j)])
-        msg.data = flat
+            data.extend([int(i), int(j), 1])
+        msg.data = data
         self.pub_array.publish(msg)
 
     def _prune_stale_indices(self, now: Time):
